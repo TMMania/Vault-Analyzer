@@ -2,7 +2,7 @@
 (is:weapon -is:maxpower powerlimit:1060 or tag:junk or is:blue)
 or
 (
-(is:armor -is:exotic -is:maxpower -is:inloadout -is:classitem)
+(is:armor -is:exotic -is:maxpower -is:inloadout -is:classitem -basestat:any:>=25)
 
 -(is:titan (basestat:recovery:>=18 or basestat:total:>=63))
 -(is:hunter ((basestat:recovery:>=13 basestat:mobility:>=18) or basestat:recovery:>15 or basestat:total:>=63))
