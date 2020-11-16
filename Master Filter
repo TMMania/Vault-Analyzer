@@ -16,7 +16,7 @@ or
 -(basestat:mobility:>= 8 basestat:resilience:>=8 basestat:recovery:>=8 basestat:discipline:>=8 basestat:intellect:>=8 basestat:strength:>=8)
 )
 or
-(is:classitem is:dupelower -is:masterwork-is:keep -is:modded -is:maxpower) 
+(is:classitem is:dupelower powerlimit:1060 -is:masterwork -is:modded -is:maxpower) 
 or
 (is:armor -powerlimit:>1060 -tag:keep) 
 or
