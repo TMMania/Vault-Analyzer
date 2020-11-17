@@ -2,19 +2,71 @@
 (is:weapon -is:maxpower powerlimit:1060 or tag:junk or is:blue)
 or
 (
-(is:armor -is:exotic -is:maxpower -is:inloadout -is:classitem -basestat:any:>=25)
+(is:armor -is:exotic -is:maxpower -is:inloadout -is:classitem)
 
 -(is:titan (basestat:recovery:>=18 or basestat:total:>=63))
 -(is:hunter ((basestat:recovery:>=13 basestat:mobility:>=18) or basestat:recovery:>15 or basestat:total:>=63))
--(is:warlock ((basestat:recovery:>=18 discipline:>=17 or basestat:total:>=63)))
+-(is:warlock ((basestat:recovery:>=18 discipline:>=17) or basestat:total:>=63))
 
--(((basestat:mobility:>=18 AND basestat:recovery:>=13) OR (basestat:mobility:>=18 AND basestat:strength:>=13) OR (basestat:mobility:>=18 AND basestat:intellect:>=13) OR (basestat:mobility:>=18 AND basestat:resilience:>=13) OR (basestat:mobility:>=18 AND basestat:discipline:>=13)) OR ((basestat:recovery:>=18 AND basestat:mobility:>=13) OR (basestat:recovery:>=18 AND basestat:strength:>=13) OR (basestat:recovery:>=18 AND basestat:intellect:>=13) OR (basestat:recovery:>=18 AND basestat:resilience:>=13) OR (basestat:recovery:>=18 AND basestat:discipline:>=13)) OR ((basestat:strength:>=18 AND basestat:mobility:>=13) OR (basestat:strength:>=18 AND basestat:recovery:>=13) OR (basestat:strength:>=18 AND basestat:intellect:>=13) OR (basestat:strength:>=18 AND basestat:resilience:>=13) OR (basestat:strength:>=18 AND basestat:discipline:>=13)) OR ((basestat:intellect:>=18 AND basestat:mobility:>=13) OR (basestat:intellect:>=18 AND basestat:recovery:>=13) OR (basestat:intellect:>=18 AND basestat:strength:>=13) OR (basestat:intellect:>=18 AND basestat:resilience:>=13) OR (basestat:intellect:>=18 AND basestat:discipline:>=13)) OR ((basestat:resilience:>=18 AND basestat:mobility:>=13) OR (basestat:resilience:>=18 AND basestat:recovery:>=13) OR (basestat:resilience:>=18 AND basestat:strength:>=13) OR (basestat:resilience:>=18 AND basestat:intellect:>=13) OR (basestat:resilience:>=18 AND basestat:discipline:>=13)) OR ((basestat:discipline:>=18 AND basestat:mobility:>=13) OR (basestat:discipline:>=18 AND basestat:recovery:>=13) OR (basestat:discipline:>=18 AND basestat:strength:>=13) OR (basestat:discipline:>=18 AND basestat:intellect:>=13) OR (basestat:discipline:>=18 AND basestat:resilience:>=13)))
+-(
+((basestat:mobility:>=18 basestat:resilience:>=13) or
+(basestat:mobility:>=18 basestat:recovery:>=13) or
+(basestat:mobility:>=18 basestat:discipline:>=13) or
+(basestat:mobility:>=18 basestat:intellect:>=13) or
+(basestat:mobility:>=18 basestat:strength:>=13) or
+(basestat:resilience:>=18 basestat:mobility:>=13) or
+(basestat:resilience:>=18 basestat:recovery:>=13) or
+(basestat:resilience:>=18 basestat:discipline:>=13) or
+(basestat:resilience:>=18 basestat:intellect:>=13) or
+(basestat:resilience:>=18 basestat:strength:>=13) or
+(basestat:recovery:>=18 basestat:mobility:>=13) or
+(basestat:recovery:>=18 basestat:resilience:>=13) or
+(basestat:recovery:>=18 basestat:discipline:>=13) or
+(basestat:recovery:>=18 basestat:intellect:>=13) or
+(basestat:recovery:>=18 basestat:strength:>=13) or
+(basestat:discipline:>=18 basestat:mobility:>=13) or
+(basestat:discipline:>=18 basestat:resilience:>=13) or
+(basestat:discipline:>=18 basestat:recovery:>=13) or
+(basestat:discipline:>=18 basestat:intellect:>=13) or
+(basestat:discipline:>=18 basestat:strength:>=13) or
+(basestat:intellect:>=18 basestat:mobility:>=13) or
+(basestat:intellect:>=18 basestat:resilience:>=13) or
+(basestat:intellect:>=18 basestat:recovery:>=13) or
+(basestat:intellect:>=18 basestat:discipline:>=13) or
+(basestat:intellect:>=18 basestat:strength:>=13) or
+(basestat:strength:>=18 basestat:mobility:>=13) or
+(basestat:strength:>=18 basestat:resilience:>=13) or
+(basestat:strength:>=18 basestat:recovery:>=13) or
+(basestat:strength:>=18 basestat:discipline:>=13) or
+(basestat:strength:>=18 basestat:intellect:>=13))
+)
 
-
--((basestat:discipline:>=13 basestat:intellect:>=13 basestat:mobility:>=13) or (basestat:discipline:>=13 basestat:intellect:>=13 basestat:recovery:>=13) or (basestat:discipline:>=13 basestat:intellect:>=13 basestat:resilience:>=13) or (basestat:discipline:>=13 basestat:intellect:>=13 basestat:strength:>=13) or (basestat:discipline:>=13 basestat:mobility:>=13 basestat:recovery:>=13) or (basestat:discipline:>=13 basestat:mobility:>=13 basestat:resilience:>=13) or (basestat:discipline:>=13 basestat:mobility:>=13 basestat:strength:>=13) or (basestat:discipline:>=13 basestat:recovery:>=13 basestat:resilience:>=13) or (basestat:discipline:>=13 basestat:recovery:>=13 basestat:strength:>=13) or (basestat:discipline:>=13 basestat:resilience:>=13 basestat:strength:>=13) or (basestat:intellect:>=13 basestat:mobility:>=13 basestat:recovery:>=13) or (basestat:intellect:>=13 basestat:mobility:>=13 basestat:resilience:>=13) or (basestat:intellect:>=13 basestat:mobility:>=13 basestat:strength:>=13) or (basestat:intellect:>=13 basestat:recovery:>=13 basestat:resilience:>=13) or (basestat:intellect:>=13 basestat:recovery:>=13 basestat:strength:>=13) or (basestat:intellect:>=13 basestat:resilience:>=13 basestat:strength:>=13) or (basestat:mobility:>=13 basestat:recovery:>=13 basestat:resilience:>=13) or (basestat:mobility:>=13 basestat:recovery:>=13 basestat:strength:>=13) or (basestat:mobility:>=13 basestat:resilience:>=13 basestat:strength:>=13) or (basestat:recovery:>=13 basestat:resilience:>=13 basestat:strength:>=13))
+-(
+((basestat:mobility:>=13 basestat:resilience:>=13 basestat:recovery:>=13) or
+(basestat:mobility:>=13 basestat:resilience:>=13 basestat:discipline:>=13) or
+(basestat:mobility:>=13 basestat:resilience:>=13 basestat:intellect:>=13) or
+(basestat:mobility:>=13 basestat:resilience:>=13 basestat:strength:>=13) or
+(basestat:mobility:>=13 basestat:recovery:>=13 basestat:discipline:>=13) or
+(basestat:mobility:>=13 basestat:recovery:>=13 basestat:intellect:>=13) or
+(basestat:mobility:>=13 basestat:recovery:>=13 basestat:strength:>=13) or
+(basestat:mobility:>=13 basestat:discipline:>=13 basestat:intellect:>=13) or
+(basestat:mobility:>=13 basestat:discipline:>=13 basestat:strength:>=13) or
+(basestat:mobility:>=13 basestat:intellect:>=13 basestat:strength:>=13) or
+(basestat:resilience:>=13 basestat:recovery:>=13 basestat:discipline:>=13) or
+(basestat:resilience:>=13 basestat:recovery:>=13 basestat:intellect:>=13) or
+(basestat:resilience:>=13 basestat:recovery:>=13 basestat:strength:>=13) or
+(basestat:resilience:>=13 basestat:discipline:>=13 basestat:intellect:>=13) or
+(basestat:resilience:>=13 basestat:discipline:>=13 basestat:strength:>=13) or
+(basestat:resilience:>=13 basestat:intellect:>=13 basestat:strength:>=13) or
+(basestat:recovery:>=13 basestat:discipline:>=13 basestat:intellect:>=13) or
+(basestat:recovery:>=13 basestat:discipline:>=13 basestat:strength:>=13) or
+(basestat:recovery:>=13 basestat:intellect:>=13 basestat:strength:>=13) or
+(basestat:discipline:>=13 basestat:intellect:>=13 basestat:strength:>=13))
+)
 
 -(basestat:mobility:>= 8 basestat:resilience:>=8 basestat:recovery:>=8 basestat:discipline:>=8 basestat:intellect:>=8 basestat:strength:>=8)
 )
+
 or
 (is:classitem is:dupelower powerlimit:1060 -is:masterwork -is:modded -is:maxpower) 
 or
