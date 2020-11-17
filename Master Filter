@@ -1,4 +1,5 @@
 (
+(
 (is:weapon -is:maxpower powerlimit:1060 or tag:junk or is:blue)
 or
 (
@@ -75,3 +76,4 @@ or
 (is:armor is:blue)
 )
 -tag:keep -tag:archive -tag:favorite -is:maxpower -is:inloadout
+)
