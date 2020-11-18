@@ -69,11 +69,11 @@ or
 )
 
 or
-(is:classitem is:dupelower powerlimit:1060 -is:masterwork -is:modded) 
+(is:classitem is:dupelower powerlimit:1060 -is:modded) 
 or
 (is:armor -powerlimit:>1060) 
 or
 (is:armor is:blue)
 )
--tag:keep -tag:archive -tag:favorite -is:maxpower -is:inloadout
+-tag:keep -tag:archive -tag:favorite -is:maxpower -is:inloadout -is:masterwork
 )
