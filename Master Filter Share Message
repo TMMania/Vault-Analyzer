@@ -1,4 +1,4 @@
-__------------------------------------------------------------------------------------------__
+__--------------------__
 **TMMania's Master Filter: Code for filtering your armor. __This highlights your trash__, anything non-highlighted is an interesting roll for you to decide to keep.**
 
 __Copy and paste the code in this link into your DIM search bar and click any character emblem and select "Transfer Search" and dismantle highlighted items.__
@@ -21,12 +21,15 @@ This filter will keep __armor__ under the following conditions:
 
 
 Weapons:
-- Weapons that are sunset or have the Junk tag will be highlighted to be dismantled.
+- Weapons that are sunset or have the Junk tag or blues will be highlighted to be dismantled, this filter will keep 1 max power blue for each slot.
 - Pinnacles, Rituals and all MW'ed weapons that are sunset will be ignored.
 
 You can modify the stat total filter for armor in the sections that start with is:class. 
 Personally I set basestat:total:>=(xx) to 65 for my main characters and 63 for non-main characters.
 
+**New Weapon Checker:** https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/New%20Weapon%20Checking
+Highlights new weapons while ignoring your highest Light Level blues.
+
 __Link to copy this message with formatting__: https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/Master%20Filter%20Share%20Message
 Copy and paste the whole code into your chat to share with server / channel / friends.
-__------------------------------------------------------------------------------------------__
+__--------------------__
