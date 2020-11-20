@@ -24,8 +24,8 @@ Weapons:
 - Weapons that are sunset or have the Junk tag will be highlighted to be dismantled.
 - Pinnacles, Rituals and all MW'ed weapons that are sunset will be ignored.
 
-You can specify the minimum stat roll for each class type in the last section of the rows with is:titan is:warlock or is:hunter.
-I have it set to 63 for all classes by default. Personally I set basestat:total:>=(xx) to 65 for my main characters and 63 for non-main characters.
+You can modify the stat total filter for armor in the sections that start with is:class. 
+Personally I set basestat:total:>=(xx) to 65 for my main characters and 63 for non-main characters.
 
 __Link to copy this message with formatting__: https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/Master%20Filter%20Share%20Message
 Copy and paste the whole code into your chat to share with server / channel / friends.
