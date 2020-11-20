@@ -1,12 +1,12 @@
 ------------------------------------------------------------------------------------------
 **TMMania's Master Filter: One-Stop-Shop command for cleaning your vault, __highlights your trash__.** 
 
-Copy and paste the code in this link into your DIM search bar.
+__Copy and paste the code in this link into your DIM search bar and click any character emblem and select "Transfer Search" and dismantle highlighted items.__
 __Link:__ https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/Master%20Filter
 
 This filter will keep/ignore:
 - **Tagged: Keep / Favorite / Archive [Please Use Tags]**
-- Highest LL Items
+- Highest Light Level items (Armor and Weapons, one of each slot)
 - All Exotics (Weapons and Armor) 
 - Loadout Items
 - Titan: 18+ Recovery
@@ -16,17 +16,16 @@ This filter will keep/ignore:
 - 15/20 Stat Pair w/ MW
 - Triple 15 Stat Set w/ MW 
 - Equal Stat Distribution
-- 1 of every class item
+- One of every class item. Again, please use Keep / Favorite / Archive Tags
 
 Weapons:
 - Highlights Sunset Items that are not masterworked, use the Keep / Favorite / Archive tags to ignore these items
 - Pinnacles, Rituals and all MW'ed weapons that are sunset will be ignored.
 - Using the Junk tag on weapons will result in them being highlighted.
 
-You can specify the minimum stat roll for each class type in the last section of the rows with is:titan is:warlock.
- I have it set to 63 for all, I set it to 65 for my main and 63 for alt characters.
-
+You can specify the minimum stat roll for each class type in the last section of the rows with is:titan is:warlock or is:hunter.
+I have it set to 63 for all classes by default. Personally I set basestat:total:>=(xx) to 65 for my main characters and 63 for non-main characters.
 
 __Link to copy this message with formatting__: https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/Master%20Filter%20Share%20Message
-Copy and paste the whole code into your chat to share with friends / server / channel.
+Copy and paste the whole code into your chat to share with server / channel / friends.
 ------------------------------------------------------------------------------------------
