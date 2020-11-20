@@ -3,7 +3,31 @@
 Please use Keep/Favorite/Archive and Junk tags on your weapons and armor.
 
 
-Master Filter: Keeps exotics, loadout items, tag:favorites and tag:keep tag:archive, highest LL items, stat goals for every class (Titan 72 recovery / Hunter 72 mobility + 52 recovery or 72 recovery / Warlock 68 recovery + 72 discipline) and all armor with high total stat rolls (63+) and 15/20 pair, 15 triple or Full House rolls (Explained above and provided some wiggle room in the filter) and will keep 1 of every class item. Weapons require the "junk" tag to be highlighted and this filter will ignore your highest LL weapons, sunset items with the keep tag. Copy between here and the next highlighted message and paste in your DIM search bar. No more wondering if your junk is treasure, just filter out junk automatically and compare the treasure. You can specify the minimum stat roll for each class type in the last section of the rows with is:titan is:warlock, I have it set to 63 for all, I set it to 65 for my main and 63 for alt characters. 
+------------------------------------------------------------------------------------------
+TMMania's Master Filter: One-Stop-Shop command for cleaning your vault, highlights your trash. 
+
+This filter will keep/ignore:
+- Tagged: Keep / Favorite / Archive [Please Use Tags]
+- Highest LL Items
+- All Exotics (Weapons and Armor) 
+- Loadout Items
+- Titan: 18+ Recovery
+- Hunter: 18+ mobility and 13+ recovery  or 18+ Recovery 
+- Warlock: 18+ Discipline and 17+ recovery
+- All armor with 63+ stat rolls
+- 15/20 Stat Pair w/ MW
+- Triple 15 Stat Set w/ MW 
+- Equal Stat Distribution
+- 1 of every class item
+
+Weapons:
+- Highlights Sunset Items that are not masterworked, use the Keep / Favorite / Archive tags to ignore these items
+- Pinnacles, Rituals and all MW'ed weapons that are sunset will be ignored.
+- Using the Junk tag on weapons will result in them being highlighted.
+
+You can specify the minimum stat roll for each class type in the last section of the rows with is:titan is:warlock, I have it set to 63 for all, I set it to 65 for my main and 63 for alt characters. Please use Keep/Favorite/Archive and Junk Tags
+------------------------------------------------------------------------------------------
+
 
 15/20 Pair: Armor that has 20 in one stat and 15 in another.
 
