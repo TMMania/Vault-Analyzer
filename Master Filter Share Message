@@ -1,0 +1,32 @@
+------------------------------------------------------------------------------------------
+**TMMania's Master Filter: One-Stop-Shop command for cleaning your vault, __highlights your trash__.** 
+
+Copy and paste the code in this link into your DIM search bar.
+__Link:__ https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/Master%20Filter
+
+This filter will keep/ignore:
+- **Tagged: Keep / Favorite / Archive [Please Use Tags]**
+- Highest LL Items
+- All Exotics (Weapons and Armor) 
+- Loadout Items
+- Titan: 18+ Recovery
+- Hunter: (18+ Mobility **and** 13+ recovery)  __or__ (18+ Recovery) 
+- Warlock: (18+ Discipline **and** 17+ recovery)
+- All armor with 63+ stat rolls (keep reading)
+- 15/20 Stat Pair w/ MW
+- Triple 15 Stat Set w/ MW 
+- Equal Stat Distribution
+- 1 of every class item
+
+Weapons:
+- Highlights Sunset Items that are not masterworked, use the Keep / Favorite / Archive tags to ignore these items
+- Pinnacles, Rituals and all MW'ed weapons that are sunset will be ignored.
+- Using the Junk tag on weapons will result in them being highlighted.
+
+You can specify the minimum stat roll for each class type in the last section of the rows with is:titan is:warlock.
+ I have it set to 63 for all, I set it to 65 for my main and 63 for alt characters.
+
+
+__Link to copy this message with formatting__:
+Copy and paste the whole code into your chat to share with friends / server / channel.
+------------------------------------------------------------------------------------------
