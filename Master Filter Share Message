@@ -19,7 +19,6 @@ This filter will keep __armor__ under the following conditions:
 - Equal Stat Distribution
 - One of every class item. Again, please use Keep / Favorite / Archive Tags
 
-
 Weapons:
 - Weapons that are sunset or have the Junk tag or blues will be highlighted to be dismantled, this filter will keep 1 max power blue for each slot.
 - Pinnacles, Rituals and all MW'ed weapons that are sunset will be ignored.
