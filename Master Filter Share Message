@@ -19,7 +19,7 @@ This filter will keep __armor__ under the following conditions:
 - One of every class item, use Keep tag to save additional copies.
 
 Weapons:
-- I do not have any filtering for perks.
+- Does not have any filtering for perks.
 - Weapons that are sunset or have the Junk tag or blues will be highlighted to be dismantled while ignoring max LL items.
 - Pinnacles, Rituals and all MW'ed weapons that are sunset will be ignored.
 
