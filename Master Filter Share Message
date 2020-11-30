@@ -6,8 +6,8 @@ __Copy and paste the code in this link into your DIM search bar and click any ch
 
 This filter will keep __armor__ under the following conditions:
 - **Tagged: Keep / Favorite / Archive**
-- Sunset Armor **__with Tags; use tags.__**
-- Highest Light Level items
+- Non-Sunset Armor (__Sunset armor without tags will be highlighted__)
+- Highest Light Level items (Armor and Weapons, one of each slot)
 - All Exotics (Weapons and Armor) 
 - Loadout Items
 - Titan: 18+ Recovery
@@ -24,10 +24,9 @@ Weapons:
 - Pinnacles, Rituals and all MW'ed weapons that are sunset will be ignored.
 
 **New Item Checker:** https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/New%20Item%20Checking
-**__Turn on "New Item Dots" for this filter!__**
+**__Turn on New Item Dots for this filter__**
 __This requires you to not interact with new items in DIM, if you do click on something, mark it "Junk" if you're going to dismantle it and it'll be caught by the main filter.__
-Function: Highlights new items, these are interesting armor rolls and new weapons to be kept or trashed.
-
+Highlights new items that pass the main filter, these are to be considered for keep or trash.
 
 __Link to copy this message with formatting__: https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/Master%20Filter%20Share%20Message
 __-----__
