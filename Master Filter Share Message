@@ -19,7 +19,8 @@ This filter will keep __armor__ under the following conditions:
 - One of every class item, use Keep tag to save additional copies.
 
 Weapons:
-- Weapons that are sunset or have the Junk tag or blues will be highlighted to be dismantled, this filter will ignore your highest LL weapons.
+- I do not have any filtering for perks, you have to look at your weapon rolls
+- Weapons that are sunset or have the Junk tag or blues will be highlighted to be dismantled, this filter will keep 1 max power blue for each slot.
 - Pinnacles, Rituals and all MW'ed weapons that are sunset will be ignored.
 
 **New Item Checker:** https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/New%20Item%20Checking
