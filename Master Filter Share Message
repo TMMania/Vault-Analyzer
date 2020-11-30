@@ -5,7 +5,7 @@ __Copy and paste the code in this link into your DIM search bar and click any ch
 **__Link:__** https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/Master%20Filter
 
 This filter will keep __armor__ under the following conditions:
-- **Tagged: Keep / Favorite / Archive [Please Use Tags]**
+- **Tagged: Keep / Favorite / Archive**
 - Non-Sunset Armor (__Sunset armor without tags will be highlighted__)
 - Highest Light Level items (Armor and Weapons, one of each slot)
 - All Exotics (Weapons and Armor) 
@@ -17,17 +17,16 @@ This filter will keep __armor__ under the following conditions:
 - 15/20 Stat Pair w/ MW
 - Triple 15 Stat Set w/ MW 
 - Equal Stat Distribution
-- One of every class item. Again, please use Keep / Favorite / Archive Tags
+- One of every class item, use Keep tag to save additional copies.
 
 Weapons:
 - Weapons that are sunset or have the Junk tag or blues will be highlighted to be dismantled, this filter will keep 1 max power blue for each slot.
 - Pinnacles, Rituals and all MW'ed weapons that are sunset will be ignored.
 
-You can modify the stat total filter for armor in the sections that start with is:class. 
-Personally I set basestat:total:>=(xx) to 65 for my main characters and 63 for non-main characters.
-
-**New Weapon Checker:** https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/New%20Weapon%20Checking
-Highlights new weapons while ignoring your highest LL weapons.
+**New Item Checker:** https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/New%20Item%20Checking
+**__Turn on New Item Dots for this filter__**
+Highlights new items while ignoring your highest LL weapons, these are the leftovers that should be decided to be trashed or kept by the player.
+This requires you to not interact with new items in DIM, if you do click on something, mark it "Junk" if you're going to dismantle it and it'll be caught by the main filter.
 
 __Link to copy this message with formatting__: https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/Master%20Filter%20Share%20Message
 __-----__
