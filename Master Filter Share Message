@@ -1,12 +1,11 @@
 __-----__
 **TMMania's Master Filter: For filtering your armor & weapons. __This highlights your trash__, anything non-highlighted is an interesting roll for you to evaluate and decide to keep.**
 
-__Copy and paste the code in this link into your DIM search bar and click any character emblem and select "Transfer Search" and dismantle highlighted items.__
+__Copy and paste the code in this link into your DIM search bar and click any character emblem and select "Transfer Search" and **dismantle highlighted items**.__
 **__Link:__** https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/Master%20Filter
 
 This filter will keep __armor__ under the following conditions:
-- **Tagged: Keep / Favorite / Archive**
-- Non-Sunset Armor (__Sunset armor without tags will be highlighted__)
+- **Tagged: Keep / Favorite / Archive: (__Sunset armor without tags will be highlighted__)**
 - Highest Light Level items (Armor and Weapons, one of each slot)
 - All Exotics (Weapons and Armor) 
 - Loadout Items
@@ -25,8 +24,8 @@ Weapons:
 
 **New Item Checker:** https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/New%20Item%20Checking
 **__Turn on New Item Dots for this filter__**
+__This requires you to avoid clicking new items in DIM, if you do click on something, tag it "Junk" if you're going to dismantle it.__
 Highlights new items while ignoring your highest LL weapons, these are the leftovers that should be decided to be trashed or kept by the player.
-This requires you to avoid clicking new items in DIM, if you do click on something, tag it "Junk" if you're going to dismantle it.
 
 __Link to copy this message with formatting__: https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/Master%20Filter%20Share%20Message
 __-----__
