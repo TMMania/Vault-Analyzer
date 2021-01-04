@@ -75,5 +75,5 @@
   or
   (is:armor is:blue)
   )
-  -tag:keep -tag:archive -tag:favorite -is:maxpower -is:inloadout -is:masterwork
+  -tag:keep -tag:archive -tag:favorite -tag:infuse -is:maxpower -power:>=1260 -is:inloadout -is:masterwork
   )
