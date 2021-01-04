@@ -6,24 +6,24 @@ Please use Keep/Favorite/Archive and Junk tags on your weapons and armor.
 ------------------------------------------------------------------------------------------
 TMMania's Master Filter: One-Stop-Shop command for cleaning your vault, highlights your trash. 
 
-This filter will keep/ignore:
-- Tagged: Keep / Favorite / Archive [Please Use Tags]
-- Highest LL Items
+This filter will keep armor under the following conditions:
+- Tagged: Keep / Favorite / Archive: (Sunset armor without tags will be highlighted)
+- Highest Light Level items (Armor and Weapons, one of each slot)
 - All Exotics (Weapons and Armor) 
 - Loadout Items
 - Titan: 18+ Recovery
-- Hunter: 18+ mobility and 13+ recovery  or 18+ Recovery 
-- Warlock: 18+ Discipline and 17+ recovery
-- All armor with 63+ stat rolls
+- Hunter: (18+ Mobility and 13+ recovery)  or (18+ Recovery) 
+- Warlock: (18+ Discipline and 17+ recovery)
+- All armor with 63+ stat rolls (keep reading)
 - 15/20 Stat Pair w/ MW
 - Triple 15 Stat Set w/ MW 
 - Equal Stat Distribution
-- 1 of every class item
+- One of every class item, use Keep tag to save additional copies.
 
 Weapons:
-- Highlights Sunset Items that are not masterworked, use the Keep / Favorite / Archive tags to ignore these items
+- Does not have any filtering for perks.
+- Weapons that are sunset or have the Junk tag or blues will be highlighted to be dismantled while ignoring max LL items.
 - Pinnacles, Rituals and all MW'ed weapons that are sunset will be ignored.
-- Using the Junk tag on weapons will result in them being highlighted.
 
 You can specify the minimum stat roll for each class type in the last section of the rows with is:titan is:warlock.
 I have it set to 63 for all, I set it to 65 for my main and 63 for alt characters.
