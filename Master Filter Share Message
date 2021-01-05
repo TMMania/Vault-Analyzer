@@ -3,24 +3,24 @@ __-----__
 
 __Copy and paste the code in this link into your DIM search bar and click any character emblem and select "Transfer Search" and **dismantle highlighted items**.__
 **__Link:__** https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/Master%20Filter
-I heavily recommend making a load out that transfers away all items except for the ones you have equipped to avoid dismantling good items.
+I recommend emptying your character’s weapon & armor inventory before using the filter, manually or via loadout.
 
 This filter will keep __armor__ under the following conditions:
 - **Tagged: Keep / Favorite / Archive / Infuse: (__Sunset armor without tags will be highlighted__)**
 - Highest Light Level items (Armor and Weapons, one of each slot)
-- All Exotics (Weapons and Armor) 
+- **All** Exotics
 - Loadout Items
 - Titan: 18+ Recovery
 - Hunter: (18+ Mobility **and** 13+ recovery)  __or__ (18+ Recovery) 
 - Warlock: (18+ Discipline **and** 17+ recovery)
-- All armor with 63+ stat rolls (keep reading)
+- All armor with 63+ stat rolls
 - 15/20 Stat Pair w/ MW
 - Triple 15 Stat Set w/ MW 
 - Equal Stat Distribution
 - One of every class item, use Keep tag to save additional copies.
 
 Weapons:
-- Does not have any filtering for perks.
+- Will not filter perks.
 - Weapons that are sunset with no Keep tag or have the Junk tag or blues will be highlighted to be dismantled while ignoring max LL items.
 - Pinnacles, Rituals and all MW'ed weapons that are sunset will be ignored.
 
@@ -31,3 +31,4 @@ Highlights new items (armor and weapons) to be trashed or kept while ignoring yo
 
 __Link to copy this message with formatting__: https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/Master%20Filter%20Share%20Message
 __-----__
+
