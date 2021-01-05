@@ -10,6 +10,7 @@ Ignored Weapons & Armor:
 - Highest Light Level items (one of each slot when below season cap, keeps all items at cap)
 - All Exotics
 - Loadout Items
+- All MW'ed Items
 
 This filter will keep __armor__ under the following conditions:
 - Titan: 18+ Recovery
