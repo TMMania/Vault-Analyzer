@@ -26,8 +26,8 @@ Weapons that are sunset without tags or any weapons with the Junk tag and blues 
 
 **New Item Checker:** https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/New%20Item%20Checking
 **__This it’s own filter, turn on New Item Dots for this filter!__**
-__This requires you to avoid clicking new items in DIM, if you do click on something, tag it "Junk" if you're going to dismantle it.__
-Highlights items you haven't inspected while ignoring your highest LL weapons and armor.
+__This requires you to avoid clicking new items in DIM, you can either dismantle or tag junk and it'll get caught by your next Master Filter search.__
+Highlights items you haven't inspected, ignores max LL items.
 
 __Link to copy this message with formatting__: https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/Master%20Filter%20Share%20Message
 Please update this message monthly.
