@@ -17,12 +17,11 @@ This filter will keep __armor__ under the following conditions:
 - 15/20 Stat Pair w/ MW
 - Triple 15 Stat Set w/ MW 
 - Equal Stat Distribution
-- One of every class item, use Keep tag to save additional copies.
+- One of every class item, Tag Keep to save more.
 
 Weapons:
-- Will not filter perks.
-- Weapons that are sunset with no Keep tag or have the Junk tag or blues will be highlighted to be dismantled while ignoring max LL items.
-- Pinnacles, Rituals and all MW'ed weapons that are sunset will be ignored.
+- Weapons that are sunset or have the Junk tag or blues will be highlighted to be dismantled while ignoring max LL items.
+- Pinnacles, Rituals, weapons tagged keep and all MW'ed weapons that are sunset will be ignored.
 
 **New Item Checker:** https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/New%20Item%20Checking
 **__This is a separate filter, turn on New Item Dots for this filter!__**
