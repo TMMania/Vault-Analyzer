@@ -1,6 +1,6 @@
   (
   (
-  (is:weapon -is:maxpower -is:masterwork powerlimit:1060 or tag:junk or is:blue)
+  (is:weapon -is:maxpower -is:masterwork (is:sunset or tag:junk or is:blue))
   or
   (
   (is:armor -is:exotic -is:classitem)
@@ -71,7 +71,7 @@
   or
   (is:classitem ((is:dupelower -is:modded) or (is:sunset))) 
   or
-  (is:armor -powerlimit:>1060) 
+  (is:armor is:sunset) 
   or
   (is:armor is:blue)
   )
