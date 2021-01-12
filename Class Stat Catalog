@@ -7,11 +7,11 @@ Titan:
 
 ((is:titan (basestat:recovery:>=18))
 
-((is:titan (basestat:recovery:>=18 or basestat:total:>=63))
+((is:titan  (basestat:recovery:>=18 or basestat:total:>=63))
 
-(is:titan -is:inloadout (basestat:recovery:<18))
+(is:titan -is:inloadout -is:classitem -is:maxpower (basestat:recovery:<18))
 
-(is:titan -is:inloadout (basestat:recovery:<18 or sunsetsin:next))
+(is:titan -is:inloadout -is:classitem -is:maxpower (basestat:recovery:<18 or sunsetsin:next))
 
 
 Just Hunter:
@@ -20,9 +20,9 @@ Just Hunter:
 
 (is:hunter ((basestat:recovery:>=13 basestat:mobility:>=18) or basestat:recovery:>=15 or basestat:total:>=63))
 
-is:hunter -is:inloadout (((basestat:recovery:<13 basestat:mobility:<18) or basestat:recovery:<15))
+is:hunter -is:inloadout -is:classitem -is:maxpower (((basestat:recovery:<13 basestat:mobility:<18) or basestat:recovery:<15))
 
-is:hunter -is:inloadout (((basestat:recovery:<13 basestat:mobility:<18) or basestat:recovery:<15) or sunsetsin:next)
+is:hunter -is:inloadout -is:classitem -is:maxpower (((basestat:recovery:<13 basestat:mobility:<18) or basestat:recovery:<15) or sunsetsin:next)
 
 
 Just Warlock:
@@ -31,6 +31,6 @@ Just Warlock:
 
 (is:warlock ((basestat:recovery:>=18 discipline:>=17) or basestat:total:>=63))
 
-(is:warlock (basestat:recovery:<18 discipline:<17))
+(is:warlock -is:inloadout -is:classitem -is:maxpower (basestat:recovery:<18 discipline:<17))
 
-(is:warlock ((basestat:recovery:<18 discipline:<17) or sunsetsin:next))
+(is:warlock -is:inloadout -is:classitem -is:maxpower ((basestat:recovery:<18 discipline:<17) or sunsetsin:next))
