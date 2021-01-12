@@ -9,9 +9,9 @@ Titan:
 
 ((is:titan (basestat:recovery:>=18 or basestat:total:>=63))
 
-(is:titan -is:inloadout (basestat:recovery:<18 or sunsetsin:next))
-
 (is:titan -is:inloadout (basestat:recovery:<18))
+
+(is:titan -is:inloadout (basestat:recovery:<18 or sunsetsin:next))
 
 
 Just Hunter:
