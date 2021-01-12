@@ -1,8 +1,8 @@
-  (
-  (
+(
+(
   (is:weapon -is:maxpower -is:masterwork (is:sunset or tag:junk or is:blue))
-  or
-  (
+or
+(
   (is:armor -is:exotic -is:classitem)
 
   -(is:titan (basestat:recovery:>=18 or basestat:total:>=63))
@@ -66,14 +66,14 @@
   )
 
   -(basestat:mobility:>=8 basestat:resilience:>=8 basestat:recovery:>=8 basestat:discipline:>=8 basestat:intellect:>=8 basestat:strength:>=8)
-  )
+)
 
-  or
+or
   (is:classitem ((is:dupelower -is:modded) or (is:sunset))) 
-  or
+or
   (is:armor is:sunset) 
-  or
+or
   (is:armor is:blue)
-  )
-  -tag:keep -tag:archive -tag:favorite -tag:infuse -is:maxpower -power:>=1260 -is:inloadout -is:masterwork
-  )
+)
+tag:junk -tag:keep -tag:archive -tag:favorite -tag:infuse -is:maxpower -power:>=1260 -is:inloadout -is:masterwork
+)
