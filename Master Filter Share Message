@@ -15,7 +15,7 @@ Ignored Weapons & Armor:
 This filter will keep __armor__ under the following conditions:
 - Titan: 18+ Recovery
 - Hunter: (18+ Mobility **and** 13+ recovery)  __or__ (18+ Recovery) 
-- Warlock: (18+ Discipline **and** 17+ recovery)
+- Warlock: (17+ Discipline **and** 18+ recovery)
 - All armor with 63+ stat rolls
 - 15/20 Stat Pair w/ MW
 - Triple 15 Stat Set w/ MW 
