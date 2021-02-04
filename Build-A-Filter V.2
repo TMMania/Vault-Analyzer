@@ -1,16 +1,30 @@
 (
 (
-(Weapons Filtering Begin) or  
+(Weapons Filter Begin) or
+  
   (is:weapon -is:maxpower -is:masterwork (is:sunset or tag:junk or is:blue))
-or (Weapons Filtering End)
-or
-(
-(Armor Filtering Begin) or
-  (is:armor -is:exotic -is:classitem)
 
+or (Weapons Filter End)
+)
+
+or
+
+(
+(
+(Class Specific Armor Begin) or
+
+   (is:armor -is:exotic -is:classitem)
   -(is:titan (basestat:recovery:>=18 or basestat:total:>=63))
   -(is:hunter ((basestat:recovery:>=13 basestat:mobility:>=18) or basestat:recovery:>=18 or basestat:total:>=63))
   -(is:warlock ((basestat:recovery:>=18 discipline:>=17) or basestat:recovery:>=18 or basestat:total:>=63))
+
+or (Class Specific Armor End)
+)
+or
+(
+(Vault Armor Filter Begin) or
+
+(is:armor -is:exotic -is:classitem)
 
   -(
   ((basestat:mobility:>=18 basestat:resilience:>=13) or
@@ -69,20 +83,25 @@ or
   )
 
   -(basestat:mobility:>=8 basestat:resilience:>=8 basestat:recovery:>=8 basestat:discipline:>=8 basestat:intellect:>=8 basestat:strength:>=8)
-or (Armor Filtering End)
+
+or (Vault Armor Filter End)
 )
-(Alternate Cases Section Begin) or
-  or
-    (is:classitem ((is:dupelower -is:modded) or (is:sunset))) 
-  or
-    (is:armor is:sunset) 
-  or
-    (is:armor is:blue)
-  or
-    (tag:junk -is:maxpower)
-or (Alternate Cases End)
 )
-(Master Overrides Begin) or
--tag:keep -tag:archive -tag:favorite -tag:infuse -is:maxpower -power:>=1260 -is:inloadout -is:masterwork
-or (Master Overrides End)
+or
+(
+(Alternate Cases Begin) or
+
+(is:classitem ((is:dupelower -is:modded) or (is:sunset))) or
+(is:armor is:sunset) or
+(is:armor is:blue) or
+(tag:junk -is:maxpower) or
+
+(Alternate Cases End)
+)
+(
+(Masteroverrides Begin) or
+
+(-tag:keep -tag:archive -tag:favorite -tag:infuse -is:maxpower -power:>=1260 -is:inloadout -is:masterwork)
+
+or (Masteroverrides End)
 )
