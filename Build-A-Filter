@@ -49,7 +49,7 @@ or (Masteroverrides End)
 
 The above filter is an example of the "empty" filter. The below filter is the empty filter with the conditions from the Master Filter filled in.
 This is an attempt to create a modular and readable filter that players will be able to pick out different filter conditions for each section and just paste those in to reach their own custom filter.
-
+Currently the "empty" filter isn't ready to be built up yet, this is just my first swing at the issue, I'll make something more official at a later date.
 
 (
 (
