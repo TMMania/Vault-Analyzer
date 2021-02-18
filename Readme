@@ -6,6 +6,7 @@ I've catagorized the contents of this GitHub, refer to the list below:
 
 1. Filter Builder - A spreadsheet you can use to design your own filters, everything is automatically compiled, you just put 
                     in the settings you want. Includes pre-made filter, an alternative to the Master Filter.
+
 2. Master Filter - Pre-Made Filter that should work for just about anyone. Conditions described below.
 3. Useful Searches - Set of filters you can use for specific functions, instructions inside.
 4. Master Filter Modules - List of Modules used for the Master Filter
