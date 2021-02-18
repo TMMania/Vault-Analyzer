@@ -2,10 +2,12 @@
 
 Please use Keep/Favorite/Archive and Junk tags on your weapons and armor.
 
-If you're interested in making your own filter, check out the file "Filter Builder"
+I've catagorized the contents of this GitHub, refer to the list below:
 
-1. Filter Builder - A spreadsheet you can use to design your own filters, everything is automatically compiled, you just put in the settings you want. Includes pre-made filter
+1. Filter Builder - A spreadsheet you can use to design your own filters, everything is automatically compiled, you just put in the settings you want. Includes pre-made filter, an alternative to the Master Filter.
 2. Master Filter - Pre-Made Filter that should work for just about anyone. Conditions described below.
+3. Class Stat Catalogue - Set of filters you can use to highlight armor you could utilize for builds, highlights the good stuff.
+4. Master Filter Modules - List of Modules used for the Master Filter
 
 ------------------------------------------------------------------------------------------
 TMMania's Master Filter: One-Stop-Shop command for cleaning your vault, highlights your trash. 
