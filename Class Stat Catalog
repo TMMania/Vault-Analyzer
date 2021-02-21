@@ -1,0 +1,36 @@
+The 1st filter is just for stat goals, this can identify items you want for your builds.
+The 2nd just includes 63 stat total.
+The 3rd identifies stuff that doesn't reach the stat goals.
+The 4th is for cleaning your vault to make sure you don't have stuff that doesn't reach the stat goals while also checking for armor that will sunset at the end of the season.
+
+Titan:
+
+((is:titan (basestat:recovery:>=18))
+
+((is:titan  (basestat:recovery:>=18 or basestat:total:>=63))
+
+(is:titan -is:inloadout -is:classitem -is:maxpower (basestat:recovery:<18))
+
+(is:titan -is:inloadout -is:classitem -is:maxpower (basestat:recovery:<18 or sunsetsin:next))
+
+
+Just Hunter:
+
+(is:hunter ((basestat:recovery:>=13 basestat:mobility:>=18) or basestat:recovery:>=15))
+
+(is:hunter ((basestat:recovery:>=13 basestat:mobility:>=18) or basestat:recovery:>=15 or basestat:total:>=63))
+
+is:hunter -is:inloadout -is:classitem -is:maxpower (((basestat:recovery:<13 basestat:mobility:<18) or basestat:recovery:<15))
+
+is:hunter -is:inloadout -is:classitem -is:maxpower (((basestat:recovery:<13 basestat:mobility:<18) or basestat:recovery:<15) or sunsetsin:next)
+
+
+Just Warlock:
+
+(is:warlock (basestat:recovery:>=18 discipline:>=17))
+
+(is:warlock ((basestat:recovery:>=18 discipline:>=17) or basestat:total:>=63))
+
+(is:warlock -is:inloadout -is:classitem -is:maxpower (basestat:recovery:<18 discipline:<17))
+
+(is:warlock -is:inloadout -is:classitem -is:maxpower ((basestat:recovery:<18 discipline:<17) or sunsetsin:next))
