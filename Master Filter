@@ -80,4 +80,5 @@ or
   (is:armor is:blue)
 )
 -tag:keep -tag:archive -tag:favorite -tag:infuse -is:maxpower -power:powerfulcap -power:pinnaclecap -is:inloadout -is:masterwork -(-is:armor -is:weapon)
-)  or (tag:junk -is:maxpower))
+)  or (tag:junk -is:maxpower)
+)
