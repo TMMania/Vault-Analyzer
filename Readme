@@ -4,18 +4,18 @@ Please use Keep/Favorite/Archive and Junk tags on your weapons and armor.
 
 I've catagorized the contents of this GitHub, refer to the list below:
 
-1. Filter Builder - A spreadsheet you can use to design your own filters, everything is automatically compiled, you just put 
-                    in the settings you want. Includes pre-made filter, an alternative to the Master Filter.
+1. Filter Builder - A spreadsheet you can use to design your own Vault filters, everything is automatically compiled, you just put 
+                    in the settings you want. Includes pre-made filter, an alternative to the Vault Filter.
 
-2. Master Filter - Pre-Made Filter that should work for just about anyone. Conditions described below.
+2. Vault Filter - Pre-Made Filter that should work for just about anyone. Conditions described below.
 3. Useful Searches - Set of filters you can use for specific functions, instructions inside.
-4. Master Filter Modules - List of Modules used for the Master Filter
-5. Depreciated/Less Useful Searches - Currently home to the "hands on weapon filtering" which requires you to tag every single weapon you own. Check out the new weapon checking if you're interested in a similar approach.
+4. Filter Modules - List of Modules, some are int the Vault Filter
+5. Depreciated/Less Useful Searches - Currently home to the "hands on weapon filtering" which requires you to tag every single weapon you own. Check out the new weapon checking if you're interested in a more hands off approach.
 
 (Note: The non-numbered versions of the files are just there to maintain older links, these are identical to the numbered versions.)
 
 ------------------------------------------------------------------------------------------
-TMMania's Master Filter: One-Stop-Shop command for cleaning your vault, highlights your trash. 
+TMMania's Vault Filter: One-Stop-Shop command for cleaning your vault, highlights your trash. 
 
 This filter will keep armor under the following conditions:
 - Tagged: Keep / Favorite / Archive: (Sunset armor without tags will be highlighted)
@@ -47,7 +47,7 @@ I have it set to 63 for all, I set it to 65 for my main and 63 for alt character
 
 Full House: Armor with an equal stat split
 
-Note: The Master filter utilizes the broader filter that reduces the 15/20 pair and 15 triple to 13/18 pair and 13 triple to allow Masterwork to fill in those gaps.
+Summation Triple Stats: [BETA DIM ONLY] Tests for armor that the base value of 3 stats add up to >40, using all combinations of 3 stats together. To add this to your Vault Filter, make sure you add a "-" (subtraction sign) to the very start of this module and paste it in between the other two big modules. 
 
 New Weapon Sorting: For looking at weapons that you haven't inspected yet. This has 2 requirements: New Item Dots option turned on and never click a weapon in DIM, if you do click on a weapon, mark it junk if you don't want it.
 
