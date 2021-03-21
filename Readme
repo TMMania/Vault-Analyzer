@@ -47,7 +47,7 @@ I have it set to 63 for all, I set it to 65 for my main and 63 for alt character
 
 Full House: Armor with an equal stat split
 
-Summation Triple Stats: [BETA DIM ONLY] Tests for armor that the base value of 3 stats add up to >40, using all combinations of 3 stats together. To add this to your Vault Filter, make sure you add a "-" (subtraction sign) to the very start of this module and paste it in between the other two big modules. 
+Triple Stat Summations: [BETA DIM ONLY] Tests for armor that the base value of 3 stats add up to >40, using all combinations of 3 stats together. To add this to your Vault Filter, make sure you add a "-" (subtraction sign) to the very start of this module and paste it in between the other two big modules. 
 
 New Weapon Sorting: For looking at weapons that you haven't inspected yet. This has 2 requirements: New Item Dots option turned on and never click a weapon in DIM, if you do click on a weapon, mark it junk if you don't want it.
 
