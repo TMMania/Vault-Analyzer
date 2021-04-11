@@ -8,6 +8,7 @@ or
   
   -(basestat:recovery:>=18)
   -(basestat:total:>=65)
+  -(basestat:any:>=25)
   
   -(is:titan basestat:resilience:>=18)
   -(is:hunter basestat:mobility:>=18)
