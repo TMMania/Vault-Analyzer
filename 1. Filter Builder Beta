@@ -1,0 +1,85 @@
+(
+(
+(
+  (is:weapon -is:maxpower -is:masterwork (is:sunset or is:blue))
+or
+(
+  (is:armor -is:exotic -is:classitem)
+  
+  -(basestat:recovery:>=18)
+  -(basestat:total:>=65)
+  -(basestat:any:>=25)
+  
+  -(is:titan basestat:resilience:>=18)
+  -(is:hunter basestat:mobility:>=18)
+  -(is:warlock basestat:discipline:>=18)
+
+  -(
+  ((basestat:mobility:>=20 basestat:resilience:>=15) or
+  (basestat:mobility:>=20 basestat:recovery:>=15) or
+  (basestat:mobility:>=20 basestat:discipline:>=15) or
+  (basestat:mobility:>=20 basestat:intellect:>=15) or
+  (basestat:mobility:>=20 basestat:strength:>=15) or
+  (basestat:resilience:>=20 basestat:mobility:>=15) or
+  (basestat:resilience:>=20 basestat:recovery:>=15) or
+  (basestat:resilience:>=20 basestat:discipline:>=15) or
+  (basestat:resilience:>=20 basestat:intellect:>=15) or
+  (basestat:resilience:>=20 basestat:strength:>=15) or
+  (basestat:recovery:>=20 basestat:mobility:>=15) or
+  (basestat:recovery:>=20 basestat:resilience:>=15) or
+  (basestat:recovery:>=20 basestat:discipline:>=15) or
+  (basestat:recovery:>=20 basestat:intellect:>=15) or
+  (basestat:recovery:>=20 basestat:strength:>=15) or
+  (basestat:discipline:>=20 basestat:mobility:>=15) or
+  (basestat:discipline:>=20 basestat:resilience:>=15) or
+  (basestat:discipline:>=20 basestat:recovery:>=15) or
+  (basestat:discipline:>=20 basestat:intellect:>=15) or
+  (basestat:discipline:>=20 basestat:strength:>=15) or
+  (basestat:intellect:>=20 basestat:mobility:>=15) or
+  (basestat:intellect:>=20 basestat:resilience:>=15) or
+  (basestat:intellect:>=20 basestat:recovery:>=15) or
+  (basestat:intellect:>=20 basestat:discipline:>=15) or
+  (basestat:intellect:>=20 basestat:strength:>=15) or
+  (basestat:strength:>=20 basestat:mobility:>=15) or
+  (basestat:strength:>=20 basestat:resilience:>=15) or
+  (basestat:strength:>=20 basestat:recovery:>=15) or
+  (basestat:strength:>=20 basestat:discipline:>=15) or
+  (basestat:strength:>=20 basestat:intellect:>=15))
+  )
+
+  -(
+  ((basestat:mobility:>=15 basestat:resilience:>=15 basestat:recovery:>=15) or
+  (basestat:mobility:>=15 basestat:resilience:>=15 basestat:discipline:>=15) or
+  (basestat:mobility:>=15 basestat:resilience:>=15 basestat:intellect:>=15) or
+  (basestat:mobility:>=15 basestat:resilience:>=15 basestat:strength:>=15) or
+  (basestat:mobility:>=15 basestat:recovery:>=15 basestat:discipline:>=15) or
+  (basestat:mobility:>=15 basestat:recovery:>=15 basestat:intellect:>=15) or
+  (basestat:mobility:>=15 basestat:recovery:>=15 basestat:strength:>=15) or
+  (basestat:mobility:>=15 basestat:discipline:>=15 basestat:intellect:>=15) or
+  (basestat:mobility:>=15 basestat:discipline:>=15 basestat:strength:>=15) or
+  (basestat:mobility:>=15 basestat:intellect:>=15 basestat:strength:>=15) or
+  (basestat:resilience:>=15 basestat:recovery:>=15 basestat:discipline:>=15) or
+  (basestat:resilience:>=15 basestat:recovery:>=15 basestat:intellect:>=15) or
+  (basestat:resilience:>=15 basestat:recovery:>=15 basestat:strength:>=15) or
+  (basestat:resilience:>=15 basestat:discipline:>=15 basestat:intellect:>=15) or
+  (basestat:resilience:>=15 basestat:discipline:>=15 basestat:strength:>=15) or
+  (basestat:resilience:>=15 basestat:intellect:>=15 basestat:strength:>=15) or
+  (basestat:recovery:>=15 basestat:discipline:>=15 basestat:intellect:>=15) or
+  (basestat:recovery:>=15 basestat:discipline:>=15 basestat:strength:>=15) or
+  (basestat:recovery:>=15 basestat:intellect:>=15 basestat:strength:>=15) or
+  (basestat:discipline:>=15 basestat:intellect:>=15 basestat:strength:>=15))
+  )
+
+  -(basestat:mobility:>=8 basestat:resilience:>=8 basestat:recovery:>=8 basestat:discipline:>=8 basestat:intellect:>=8 basestat:strength:>=8)
+)
+
+or
+  (is:classitem energycapacity:<=5 -is:modded -is:locked -(source:raid -is:dupelower))
+or
+  (is:armor is:sunset) 
+or
+  (is:armor is:blue)
+)
+-(is:tagged -tag:junk) -is:maxpower -power:pinnaclecap -is:inloadout -is:masterwork -(-is:armor -is:weapon) -(is:armor -is:armor2.0)
+)  or (tag:junk -is:maxpower)
+)
