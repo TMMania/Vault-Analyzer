@@ -4,10 +4,13 @@ Please use Keep/Favorite/Archive and Junk tags on your weapons and armor.
 
 I've catagorized the contents of this GitHub, refer to the list below:
 
-1. Filter Builder - A spreadsheet you can use to design your own Vault filters, everything is automatically compiled, you just put 
-                    in the settings you want. Includes pre-made filter, an alternative to the Vault Filter.
+1. Vault Filter - Pre-Made Filter that should work for just about anyone. Conditions described below the "-" separator.
+                  Beta: Just has changes I'll be making before putting them in the full branch. Won't be used too often.
+                  Current Beta differences: New class item search for transmog.
 
-2. Vault Filter - Pre-Made Filter that should work for just about anyone. Conditions described below.
+2. Filter Builder - A spreadsheet you can use to design your own Vault filters, everything is automatically compiled, you just put 
+                    in the settings you want. Includes pre-made filter, an alternative to the Vault Filter.
+                    
 3. Useful Searches - Set of filters you can use for specific functions, instructions inside.
 4. Filter Modules - List of Modules, some are int the Vault Filter
 5. Depreciated/Less Useful Searches - Currently home to the "hands on weapon filtering" which requires you to tag every single weapon you own. Check out the new weapon checking if you're interested in a more hands off approach.
