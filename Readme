@@ -11,7 +11,8 @@ I've catagorized the contents of this GitHub, refer to the list below:
 2. Filter Builder - A spreadsheet you can use to design your own Vault filters, everything is automatically compiled, you just put 
                     in the settings you want. Includes pre-made filter, an alternative to the Vault Filter.
                     
-3. Useful Searches - Set of filters you can use for specific functions, instructions inside.
+3. Useful Searches - Set of filters you can use for specific functions, instructions may be inside. In my opinion, the averages searches are far superior to the "Stat Check" options.
+                     "Stat Check" checks each stat individually, "Averages" takes an average of the stats and "Summation" takes a sum of the listed stats.
 4. Filter Modules - List of Modules, some are in the Vault Filter
 5. Depreciated/Less Useful Searches - Older/depreciated searches. Searches are put here when I develop a more effective option which will be in category #3 or #4.
                                       Note: Filters labeled "Stat Check" check each stat individually, the new versions utilize averaging which is more effective.
