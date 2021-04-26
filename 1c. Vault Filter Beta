@@ -1,4 +1,5 @@
-(
+("TMMania's Vault Filter 
+  Update Date: March 25th 2021" or
 (
 (
   (is:weapon -is:maxpower -is:masterwork (is:sunset or is:blue))
@@ -74,7 +75,7 @@ or
 )
 
 or
-  (is:classitem energycapacity:<=5 -is:modded -is:locked -(source:raid -is:dupelower))
+  (is:classitem energycapacity:<=5 -is:modded -is:locked -(source:raid -is:dupelower -source:leviathan -source:scourge))
 or
   (is:armor is:sunset) 
 or
