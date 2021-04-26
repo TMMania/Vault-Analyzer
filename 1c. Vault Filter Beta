@@ -1,5 +1,5 @@
 ("TMMania's Vault Filter |
-  Update Date: March 25th 2021" or
+  Update Date:" or
 (
 (
   (is:weapon -is:maxpower -is:masterwork (is:sunset or is:blue))
@@ -10,6 +10,8 @@ or
   -(basestat:recovery:>=18)
   -(basestat:total:>=65)
   -(basestat:any:>=25)
+  -(source:raid -is:dupelower)
+  -(source:events)
   
   -(is:titan basestat:resilience:>=18)
   -(is:hunter basestat:mobility:>=18)
@@ -71,7 +73,7 @@ or
   (basestat:discipline:>=15 basestat:intellect:>=15 basestat:strength:>=15))
   )
 
-  -(basestat:mobility:>=8 basestat:resilience:>=8 basestat:recovery:>=8 basestat:discipline:>=8 basestat:intellect:>=8 basestat:strength:>=8)
+  -(basestat:mobility&resilience&recovery&discipline&intellect&strength:>=8 -basestat:any:>15 -basestat:any:<5)
 )
 
 or
