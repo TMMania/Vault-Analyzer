@@ -1,5 +1,5 @@
 ("TMMania's Vault Filter |
-  Update Date:" or
+  Update Date: March 26th 2021" or
 (
 (
   (is:weapon -is:maxpower -is:masterwork (is:sunset or is:blue))
@@ -18,59 +18,59 @@ or
   -(is:warlock basestat:discipline:>=18)
 
   -(
-  ((basestat:mobility:>=20 basestat:resilience:>=15) or
-  (basestat:mobility:>=20 basestat:recovery:>=15) or
-  (basestat:mobility:>=20 basestat:discipline:>=15) or
-  (basestat:mobility:>=20 basestat:intellect:>=15) or
-  (basestat:mobility:>=20 basestat:strength:>=15) or
-  (basestat:resilience:>=20 basestat:mobility:>=15) or
-  (basestat:resilience:>=20 basestat:recovery:>=15) or
-  (basestat:resilience:>=20 basestat:discipline:>=15) or
-  (basestat:resilience:>=20 basestat:intellect:>=15) or
-  (basestat:resilience:>=20 basestat:strength:>=15) or
-  (basestat:recovery:>=20 basestat:mobility:>=15) or
-  (basestat:recovery:>=20 basestat:resilience:>=15) or
-  (basestat:recovery:>=20 basestat:discipline:>=15) or
-  (basestat:recovery:>=20 basestat:intellect:>=15) or
-  (basestat:recovery:>=20 basestat:strength:>=15) or
-  (basestat:discipline:>=20 basestat:mobility:>=15) or
-  (basestat:discipline:>=20 basestat:resilience:>=15) or
-  (basestat:discipline:>=20 basestat:recovery:>=15) or
-  (basestat:discipline:>=20 basestat:intellect:>=15) or
-  (basestat:discipline:>=20 basestat:strength:>=15) or
-  (basestat:intellect:>=20 basestat:mobility:>=15) or
-  (basestat:intellect:>=20 basestat:resilience:>=15) or
-  (basestat:intellect:>=20 basestat:recovery:>=15) or
-  (basestat:intellect:>=20 basestat:discipline:>=15) or
-  (basestat:intellect:>=20 basestat:strength:>=15) or
-  (basestat:strength:>=20 basestat:mobility:>=15) or
-  (basestat:strength:>=20 basestat:resilience:>=15) or
-  (basestat:strength:>=20 basestat:recovery:>=15) or
-  (basestat:strength:>=20 basestat:discipline:>=15) or
-  (basestat:strength:>=20 basestat:intellect:>=15))
+  ((basestat:mobility&resilience:>=17.5 basestat:mobility:>=15 basestat:resilience:>=15) or
+  (basestat:mobility&recovery:>=17.5 basestat:mobility:>=15 basestat:recovery:>=15) or
+  (basestat:mobility&discipline:>=17.5 basestat:mobility:>=15 basestat:discipline:>=15) or
+  (basestat:mobility&intellect:>=17.5 basestat:mobility:>=15 basestat:intellect:>=15) or
+  (basestat:mobility&strength:>=17.5 basestat:mobility:>=15 basestat:strength:>=15) or
+  (basestat:resilience&mobility:>=17.5 basestat:resilience:>=15 basestat:mobility:>=15) or
+  (basestat:resilience&recovery:>=17.5 basestat:resilience:>=15 basestat:recovery:>=15) or
+  (basestat:resilience&discipline:>=17.5 basestat:resilience:>=15 basestat:discipline:>=15) or
+  (basestat:resilience&intellect:>=17.5 basestat:resilience:>=15 basestat:intellect:>=15) or
+  (basestat:resilience&strength:>=17.5 basestat:resilience:>=15 basestat:strength:>=15) or
+  (basestat:recovery&mobility:>=17.5 basestat:recovery:>=15 basestat:mobility:>=15) or
+  (basestat:recovery&resilience:>=17.5 basestat:recovery:>=15 basestat:resilience:>=15) or
+  (basestat:recovery&discipline:>=17.5 basestat:recovery:>=15 basestat:discipline:>=15) or
+  (basestat:recovery&intellect:>=17.5 basestat:recovery:>=15 basestat:intellect:>=15) or
+  (basestat:recovery&strength:>=17.5 basestat:recovery:>=15 basestat:strength:>=15) or
+  (basestat:discipline&mobility:>=17.5 basestat:discipline:>=15 basestat:mobility:>=15) or
+  (basestat:discipline&resilience:>=17.5 basestat:discipline:>=15 basestat:resilience:>=15) or
+  (basestat:discipline&recovery:>=17.5 basestat:discipline:>=15 basestat:recovery:>=15) or
+  (basestat:discipline&intellect:>=17.5 basestat:discipline:>=15 basestat:intellect:>=15) or
+  (basestat:discipline&strength:>=17.5 basestat:discipline:>=15 basestat:strength:>=15) or
+  (basestat:intellect&mobility:>=17.5 basestat:intellect:>=15 basestat:mobility:>=15) or
+  (basestat:intellect&resilience:>=17.5 basestat:intellect:>=15 basestat:resilience:>=15) or
+  (basestat:intellect&recovery:>=17.5 basestat:intellect:>=15 basestat:recovery:>=15) or
+  (basestat:intellect&discipline:>=17.5 basestat:intellect:>=15 basestat:discipline:>=15) or
+  (basestat:intellect&strength:>=17.5 basestat:intellect:>=15 basestat:strength:>=15) or
+  (basestat:strength&mobility:>=17.5 basestat:strength:>=15 basestat:mobility:>=15) or
+  (basestat:strength&resilience:>=17.5 basestat:strength:>=15 basestat:resilience:>=15) or
+  (basestat:strength&recovery:>=17.5 basestat:strength:>=15 basestat:recovery:>=15) or
+  (basestat:strength&discipline:>=17.5 basestat:strength:>=15 basestat:discipline:>=15) or
+  (basestat:strength&intellect:>=18 basestat:strength:>=15 basestat:intellect:>=15))
   )
 
-  -(
-  ((basestat:mobility:>=15 basestat:resilience:>=15 basestat:recovery:>=15) or
-  (basestat:mobility:>=15 basestat:resilience:>=15 basestat:discipline:>=15) or
-  (basestat:mobility:>=15 basestat:resilience:>=15 basestat:intellect:>=15) or
-  (basestat:mobility:>=15 basestat:resilience:>=15 basestat:strength:>=15) or
-  (basestat:mobility:>=15 basestat:recovery:>=15 basestat:discipline:>=15) or
-  (basestat:mobility:>=15 basestat:recovery:>=15 basestat:intellect:>=15) or
-  (basestat:mobility:>=15 basestat:recovery:>=15 basestat:strength:>=15) or
-  (basestat:mobility:>=15 basestat:discipline:>=15 basestat:intellect:>=15) or
-  (basestat:mobility:>=15 basestat:discipline:>=15 basestat:strength:>=15) or
-  (basestat:mobility:>=15 basestat:intellect:>=15 basestat:strength:>=15) or
-  (basestat:resilience:>=15 basestat:recovery:>=15 basestat:discipline:>=15) or
-  (basestat:resilience:>=15 basestat:recovery:>=15 basestat:intellect:>=15) or
-  (basestat:resilience:>=15 basestat:recovery:>=15 basestat:strength:>=15) or
-  (basestat:resilience:>=15 basestat:discipline:>=15 basestat:intellect:>=15) or
-  (basestat:resilience:>=15 basestat:discipline:>=15 basestat:strength:>=15) or
-  (basestat:resilience:>=15 basestat:intellect:>=15 basestat:strength:>=15) or
-  (basestat:recovery:>=15 basestat:discipline:>=15 basestat:intellect:>=15) or
-  (basestat:recovery:>=15 basestat:discipline:>=15 basestat:strength:>=15) or
-  (basestat:recovery:>=15 basestat:intellect:>=15 basestat:strength:>=15) or
-  (basestat:discipline:>=15 basestat:intellect:>=15 basestat:strength:>=15))
+ -(
+  ((basestat:mobility&resilience&recovery:>=15 basestat:mobility:>10 basestat:resilience:>10 basestat:recovery:>10) or
+  (basestat:mobility&resilience&discipline:>=15 basestat:mobility:>10 basestat:resilience:>10 basestat:discipline:>10) or
+  (basestat:mobility&resilience&intellect:>=15 basestat:mobility:>10 basestat:resilience:>10 basestat:intellect:>10) or
+  (basestat:mobility&resilience&strength:>=15 basestat:mobility:>10 basestat:resilience:>10 basestat:strength:>10) or
+  (basestat:mobility&recovery&discipline:>=15 basestat:mobility:>10 basestat:recovery:>10 basestat:discipline:>10) or
+  (basestat:mobility&recovery&intellect:>=15 basestat:mobility:>10 basestat:recovery:>10 basestat:intellect:>10) or
+  (basestat:mobility&recovery&strength:>=15 basestat:mobility:>10 basestat:recovery:>10 basestat:strength:>10) or
+  (basestat:mobility&discipline&intellect:>=15 basestat:mobility:>10 basestat:discipline:>10 basestat:intellect:>10) or
+  (basestat:mobility&discipline&strength:>=15 basestat:mobility:>10 basestat:discipline:>10 basestat:strength:>10) or
+  (basestat:mobility&intellect&strength:>=15 basestat:mobility:>10 basestat:intellect:>10 basestat:strength:>10) or
+  (basestat:resilience&recovery&discipline:>=15 basestat:resilience:>10 basestat:recovery:>10 basestat:discipline:>10) or
+  (basestat:resilience&recovery&intellect:>=15 basestat:resilience:>10 basestat:recovery:>10 basestat:intellect:>10) or
+  (basestat:resilience&recovery&strength:>=15 basestat:resilience:>10 basestat:recovery:>10 basestat:strength:>10) or
+  (basestat:resilience&discipline&intellect:>=15 basestat:resilience:>10 basestat:discipline:>10 basestat:intellect:>10) or
+  (basestat:resilience&discipline&strength:>=15 basestat:resilience:>10 basestat:discipline:>10 basestat:strength:>10) or
+  (basestat:resilience&intellect&strength:>=15 basestat:resilience:>10 basestat:intellect:>10 basestat:strength:>10) or
+  (basestat:recovery&discipline&intellect:>=15 basestat:recovery:>10 basestat:discipline:>10 basestat:intellect:>10) or
+  (basestat:recovery&discipline&strength:>=15 basestat:recovery:>10 basestat:discipline:>10 basestat:strength:>10) or
+  (basestat:recovery&intellect&strength:>=15 basestat:recovery:>10 basestat:intellect:>10 basestat:strength:>10) or
+  (basestat:discipline&intellect&strength:>=15 basestat:discipline:>10 basestat:intellect:>10 basestat:strength:>10))
   )
 
   -(basestat:mobility&resilience&recovery&discipline&intellect&strength:>=8 -basestat:any:>15 -basestat:any:<5)
