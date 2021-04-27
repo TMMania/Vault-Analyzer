@@ -43,7 +43,7 @@ This filter will keep armor under the following conditions:
 
 - Titan: 18+ Resilience
 - Hunter: 18+ Mobility
-- Warlock: 18+ Discipline
+- Warlock: 18+ Recovery
 
 
 Weapons that are sunset without tags or a masterwork or any weapons with the Junk tag and blues will be highlighted to be dismantled while ignoring your highest LL items and pinnacle cap weapons.
