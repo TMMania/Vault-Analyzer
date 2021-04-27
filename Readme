@@ -19,41 +19,49 @@ I've catagorized the contents of this GitHub, refer to the list below:
 
 (Note: The non-numbered versions of the files are just there to maintain older links, these are identical to the numbered versions.)
 
-------------------------------------------------------------------------------------------
-TMMania's Vault Filter: One-Stop-Shop command for cleaning your vault, highlights your trash. 
+__-----__
+TMMania's Master Filter: For filtering your armor & weapons. This highlights your trash, anything non-highlighted is an interesting roll for you to decide to keep.
+
+Ignored Weapons & Armor:
+- Tagged: Keep / Favorite / Archive / Infuse: (Sunset items without any of these tags are highlighted)
+- Highest Light Level items (one of each slot when below season cap, keeps all items at seasonal cap)
+- All Exotics
+- Items in a DIM Loadout
+- All Masterworked Items
+- All non-Armor 2.0 armor
 
 This filter will keep armor under the following conditions:
-- Tagged: Keep / Favorite / Archive: (Sunset armor without tags will be highlighted)
-- Highest Light Level items (Armor and Weapons, one of each slot)
-- All Exotics (Weapons and Armor) 
-- Loadout Items
-- Titan: 18+ Recovery
-- Hunter: (18+ Mobility and 13+ recovery)  or (18+ Recovery) 
-- Warlock: 18+ recovery
-- All armor with 63+ stat rolls (keep reading)
-- 15/20 Stat Pair w/ MW
-- Triple 15 Stat Set w/ MW 
-- Equal Stat Distribution
-- One of every class item, use Keep tag to save additional copies.
+  All Classes:
+- 18+ Recovery or 65+ stat total
+- High values in 2 stats
+- High values in 3 stats
+- Nearly Equal Stat Distribution
+- Raid Armor: Atleast one armor piece per slot for each non-sunset raid will be kept. 
+              After you own more than one piece, the highest light level piece will skip the stat filters while the others go through.
+- Class items that have a slotted mod, are in a DIM loadout, have an upgrade tier equal to or greater than 6 and atleast one class item per non-sunset raid.
+- Event Armor: This basically only applies to Solstice armor, since it has an attached quest and applied effort beyond stats, I will not filter this armor.
 
-Weapons:
-- Does not have any filtering for perks.
-- Weapons that are sunset or have the Junk tag or blues will be highlighted to be dismantled while ignoring max LL items.
-- Pinnacles, Rituals and all MW'ed weapons that are sunset will be ignored.
-
-You can specify the minimum stat roll for each class type in the last section of the rows with is:titan is:warlock.
-I have it set to 63 for all, I set it to 65 for my main and 63 for alt characters.
-------------------------------------------------------------------------------------------
+- Titan: 18+ Resilience
+- Hunter: 18+ Mobility
+- Warlock: 18+ Discipline
 
 
-15/20 Pair: Armor that has 20 in one stat and 15 in another.
+Weapons that are sunset without tags or a masterwork or any weapons with the Junk tag and blues will be highlighted to be dismantled while ignoring your highest LL items and pinnacle cap weapons.
+__-----__
 
-15 Triple: Armor that has 15 in 3 separate stats
 
-Full House: Armor with an equal stat split
+2 Stat Split : Armor that has high values in two stats.
 
-Triple Stat Summations: [BETA DIM ONLY] Tests for armor that the base value of 3 stats add up to >40, using all combinations of 3 stats together. To add this to your Vault Filter, make sure you add a "-" (subtraction sign) to the very start of this module and paste it in between the other two big modules. 
+Triple Stat Split: Armor that has high values in 3 stats.
+                   15 Triple Split: 15 points in 3 stats
 
-New Weapon Sorting: For looking at weapons that you haven't inspected yet. This has 2 requirements: New Item Dots option turned on and never click a weapon in DIM, if you do click on a weapon, mark it junk if you don't want it.
+Full House: Armor with a nearly equal stat split in all stats.
+
+New Item Checking: For looking at items that you haven't inspected yet. 
+                   This has 2 requirements: New Item Dots option turned on and never click a weapon in DIM until you put in this search to clear out new items
+                   If you do click on an item, mark it junk if you don't want it.
+
+
+[Depreciated] 
 
 Hands On New Weapon Sorting: This filter relies on having tags on all of your weapons, very hands on but nothing will slip through if you accidentally click on anything like with the other "New Weapon Filter"
