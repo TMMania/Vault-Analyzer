@@ -4,7 +4,7 @@ Please use Keep/Favorite/Archive and Junk tags on your weapons and armor.
 
 I've catagorized the contents of this GitHub, refer to the list below:
 
-1. Vault Filter - Pre-Made Filter that should work for just about anyone. Conditions described below the "-" separator.
+1. Vault Filter - Pre-Made Filter that should work for just about anyone. Conditions described below.
                   Beta: Just has changes I'll be making before putting them in the full branch. Won't be used too often.
                   Current Beta differences: New class item search for transmog.
 
@@ -20,7 +20,7 @@ I've catagorized the contents of this GitHub, refer to the list below:
 (Note: The non-numbered versions of the files are just there to maintain older links, these are identical to the numbered versions.)
 
 __-----__
-TMMania's Master Filter: For filtering your armor & weapons. This highlights your trash, anything non-highlighted is an interesting roll for you to decide to keep.
+TMMania's Vault Filter: For filtering your armor & weapons. This highlights your trash, anything non-highlighted is an interesting roll for you to decide to keep.
 
 Ignored Weapons & Armor:
 - Tagged: Keep / Favorite / Archive / Infuse: (Sunset items without any of these tags are highlighted)
