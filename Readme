@@ -6,7 +6,7 @@ I've catagorized the contents of this GitHub, refer to the list below:
 
 1. Vault Filter - Pre-Made Filter that should work for just about anyone. Conditions described below.
                   Beta: Just has changes I'll be making before putting them in the full branch. Won't be used too often.
-                  Current Beta differences: New class item search for transmog.
+                  Current Beta differences: New class item search for transmog, new Triple stat split, new raid armor conditions and event armor conditions and a search title.
 
 2. Filter Builder - A spreadsheet you can use to design your own Vault filters, everything is automatically compiled, you just put 
                     in the settings you want. Includes pre-made filter, an alternative to the Vault Filter.
