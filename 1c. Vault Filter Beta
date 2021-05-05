@@ -1,6 +1,7 @@
 ("TMMania's Vault Filter |
-Update Date: May 4, 2021"
+Update Date: March 3, 2021"
 or
+(
 (
 (
 	(
@@ -13,7 +14,7 @@ or
 	-(basestat:recovery:>=18)
 	-(basestat:total:>=65)
 	-(basestat:any:>=25)
-	-(source:raid -is:dupelower -source:dcv)
+	-(source:raid -is:dupelower -source:scourge -source:leviathan)
 	-(source:events)
   
 	-(is:titan basestat:resilience:>=18)
@@ -80,7 +81,7 @@ or
   )
 
 or
-	(is:classitem energycapacity:<=5 -is:modded -is:locked -(source:raid -is:dupelower -source:dcv)
+	(is:classitem energycapacity:<=5 -is:modded -is:locked -(source:raid -is:dupelower -source:leviathan -source:scourge))
 or
 	(is:armor is:sunset) 
 or
