@@ -76,13 +76,13 @@ or
 	(basestat:discipline&intellect&strength:>=15 basestat:discipline:>10 basestat:intellect:>10 basestat:strength:>10)
 	)
 
-	-(basestat:mobility&resilience&recovery&discipline&intellect&strength:>=8 -basestat:any:>=15 -basestat:any:<5)
+	-(basestat:mobility&resilience&recovery&discipline&intellect&strength:>=8 -basestat:any:>=14 -basestat:any:<6)
   )
 
 or
 	(is:classitem energycapacity:<=5 -is:modded -is:locked -(source:raid -is:dupelower -source:leviathan -source:scourge))
 or
-	(is:armor is:sunset) 
+	(is:armor is:sunset)
 or
 	(is:armor is:blue)
 )
