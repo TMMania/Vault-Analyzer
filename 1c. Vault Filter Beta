@@ -84,7 +84,7 @@ or
 or
 	(is:armor is:sunset)
 or
-	(is:armor is:blue)
+	(is:armor is:blue -(name:"war mantis" is:gauntlets))
 )
 -(is:tagged -tag:junk) -is:maxpower -power:pinnaclecap -is:inloadout -is:masterwork -(is:armor -is:armor2.0)
 )  or (tag:junk -is:maxpower)
