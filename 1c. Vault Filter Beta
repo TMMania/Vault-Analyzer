@@ -13,7 +13,7 @@ or
 	-(basestat:recovery:>=18)
 	-(basestat:total:>=65)
 	-(basestat:any:>=25)
-	-(source:raid -is:dupelower -source:scourge -source:leviathan)
+	-(source:raid -is:dupelower -source:dcv)
 	-(source:events)
   
 	-(is:titan basestat:resilience:>=18)
@@ -80,7 +80,7 @@ or
   )
 
 or
-	(is:classitem energycapacity:<=5 -is:modded -is:locked -(source:raid -is:dupelower -source:leviathan -source:scourge))
+	(is:classitem energycapacity:<=5 -is:modded -is:locked -(source:raid -is:dupelower -source:dcv))
 or
 	(is:armor is:sunset)
 or
