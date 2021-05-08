@@ -1,5 +1,5 @@
 ("TMMania's Vault Filter |
-Update Date: March 3, 2021"
+Update Date: May 8, 2021"
 or
 (
 (
@@ -76,7 +76,7 @@ or
 	(basestat:discipline&intellect&strength:>=15 basestat:discipline:>10 basestat:intellect:>10 basestat:strength:>10)
 	)
 
-	-(basestat:mobility&resilience&recovery&discipline&intellect&strength:>=8 -basestat:any:>=14 -basestat:any:<6)
+	-(basestat:mobility&resilience&recovery&discipline&intellect&strength:>=9 -basestat:any:>=14 -basestat:any:<=6)
   )
 
 or
