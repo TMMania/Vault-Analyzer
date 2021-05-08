@@ -1,4 +1,6 @@
-Looks for rolls with high points in two stats.
+Looks for rolls with high points in two stats with a minimum value, for use with lower stat averages to prevent a high stat from identifying rolls with a large spread.
+
+Use this to find rolls with similar stats on lower average values.
 
 ((basestat:mobility&resilience:>=17.5 basestat:mobility:>=15 basestat:resilience:>=15) or
 (basestat:mobility&recovery:>=17.5 basestat:mobility:>=15 basestat:recovery:>=15) or
