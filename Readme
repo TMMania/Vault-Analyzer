@@ -5,11 +5,8 @@ Please use Keep/Favorite/Archive and Junk tags on your weapons and armor.
 I've catagorized the contents of this GitHub, refer to the list below:
 
 1. Vault Filter - Pre-Made Filter that should work for just about anyone. Conditions described below.
-                  Beta: Just has changes I'll be making before putting them in the full branch. Won't be used too often.
-                  Current Beta differences: New class item search for transmog, new Triple stat split, new raid armor conditions and event armor conditions and a search title.
 
-2. Filter Builder - A spreadsheet you can use to design your own Vault filters, everything is automatically compiled, you just put 
-                    in the settings you want. Includes pre-made filter, an alternative to the Vault Filter.
+2. Vault Filter Beta - Same thing as the Vault Filter but updated more often and I'll put changes here first before they go in the main branch.
                     
 3. Useful Searches - Set of filters you can use for specific functions, instructions may be inside. In my opinion, the averages searches are far superior to the "Stat Check" options.
                      "Stat Check" checks each stat individually, "Averages" takes an average of the stats and "Summation" takes a sum of the listed stats.
@@ -17,7 +14,10 @@ I've catagorized the contents of this GitHub, refer to the list below:
 5. Depreciated/Less Useful Searches - Older/depreciated searches. Searches are put here when I develop a more effective option which will be in category #3 or #4.
                                       Note: Filters labeled "Stat Check" check each stat individually, the new versions utilize averaging which is more effective.
 
-(Note: The non-numbered versions of the files are just there to maintain older links, these are identical to the numbered versions.)
+Notes: 
+1. The non-numbered versions of the files are just there to maintain older links, these are identical to the numbered versions.
+2. The Filter Builder is no longer public, I've decided to pull support for this as it can be a lot of effort to upkeep and has a far higher risk of bugs.
+   You can contact me in the DIM Discord about the Filter Builder if you really need it, but for now the Vault Filter has far less flaws than the initial release.
 
 __-----__
 TMMania's Vault Filter: For filtering your armor & weapons. This highlights your trash, anything non-highlighted is an interesting roll for you to decide to keep.
