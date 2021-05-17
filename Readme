@@ -4,9 +4,10 @@ Please use Keep/Favorite/Archive and Junk tags on your weapons and armor.
 
 I've catagorized the contents of this GitHub, refer to the list below:
 
-1. Vault Filter - Pre-Made Filter that should work for just about anyone. Conditions described below.
+1. Vault Analyzer and DIM Search Gallery Google Sheets - I'm moving over to a google sheets to support a better visual presentation and more friendly sharable link. Contains the same relevant information as this GitHub.
+                                                         I've experienced issues with subbreddits disliking the GitHub.com link. If you're sharing my Vault Analyzer, please use the Google Sheets link.
 
-2. Vault Filter Beta - Same thing as the Vault Filter but updated more often and I'll put changes here first before they go in the main branch.
+2. Vault Filter - Pre-Made Filter that should work for just about anyone.
                     
 3. Useful Searches - Set of filters you can use for specific functions, instructions may be inside. In my opinion, the averages searches are far superior to the "Stat Check" options.
                      "Stat Check" checks each stat individually, "Averages" takes an average of the stats and "Summation" takes a sum of the listed stats.
