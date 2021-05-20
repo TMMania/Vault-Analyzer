@@ -1,5 +1,5 @@
 ("TMMania's Vault Analyzer |
-Update Version: May 16, 2021"
+Update Version: May 20, 2021"
 or
 (
 (
@@ -84,10 +84,8 @@ or
 or
 	(is:armor is:sunset)
 or
-	(is:armor is:blue -(name:"war mantis" is:gauntlets))
-or	
-	((is:armor or is:weapon) and (is:common or is:uncommon))
+	(is:armor is:blue -(name:"war mantis" is:gauntlets))	
 )
 -(is:tagged -tag:junk) -is:maxpower -power:pinnaclecap -is:inloadout -is:masterwork -(is:armor -is:armor2.0)
-)  or (tag:junk -is:maxpower)
+)  or (tag:junk -is:maxpower) or ((is:armor or is:weapon) and (is:common or is:uncommon))
 )
