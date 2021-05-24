@@ -1,4 +1,5 @@
-((basestat:mobility&resilience:>=20) or
+("Dual Stat Averages" or
+(basestat:mobility&resilience:>=20) or
 (basestat:mobility&recovery:>=20) or
 (basestat:mobility&discipline:>=20) or
 (basestat:mobility&intellect:>=20) or
