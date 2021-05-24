@@ -1,5 +1,1 @@
-New Weapon Sorting: For looking at weapons that you haven't inspected yet. 
-This has 2 requirements: New Item Dots option turned on and never click a weapon in DIM, if you do click on a weapon, mark it junk if you don't want it.
-
-
 "new item checker" or (-(-is:armor -is:weapon) ((is:dupelower is:exotic) or -is:exotic) -is:classitem -is:maxpower is:new)
