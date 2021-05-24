@@ -1,0 +1,1 @@
+("New Item Checking" or (-(-is:armor -is:weapon) ((is:dupelower is:exotic) or -is:exotic) -is:classitem -is:maxpower is:new))

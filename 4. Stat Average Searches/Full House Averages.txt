@@ -1,0 +1,1 @@
+("Full House Stat Split" or (basestat:mobility&resilience&recovery&discipline&intellect&strength:>=8 -basestat:any:>15 -basestat:any:<5)
