@@ -2,7 +2,8 @@ Looks for rolls with high points in two stats with a minimum value, for use with
 
 Use this to find rolls with similar stats on lower average values.
 
-((basestat:mobility&resilience:>=17.5 basestat:mobility:>=15 basestat:resilience:>=15) or
+("Dual Stat Averages with Minimum Value"
+(basestat:mobility&resilience:>=17.5 basestat:mobility:>=15 basestat:resilience:>=15) or
 (basestat:mobility&recovery:>=17.5 basestat:mobility:>=15 basestat:recovery:>=15) or
 (basestat:mobility&discipline:>=17.5 basestat:mobility:>=15 basestat:discipline:>=15) or
 (basestat:mobility&intellect:>=17.5 basestat:mobility:>=15 basestat:intellect:>=15) or
