@@ -1,6 +1,7 @@
 Very effective search to check for any triple stat splits with low impact from outlier stat values.
 
-((basestat:mobility&resilience&recovery:>=15 basestat:mobility:>=10 basestat:resilience:>=10 basestat:recovery:>=10) or
+("Triple Stat Averages" or
+(basestat:mobility&resilience&recovery:>=15 basestat:mobility:>=10 basestat:resilience:>=10 basestat:recovery:>=10) or
 (basestat:mobility&resilience&discipline:>=15 basestat:mobility:>=10 basestat:resilience:>=10 basestat:discipline:>=10) or
 (basestat:mobility&resilience&intellect:>=15 basestat:mobility:>=10 basestat:resilience:>=10 basestat:intellect:>=10) or
 (basestat:mobility&resilience&strength:>=15 basestat:mobility:>=10 basestat:resilience:>=10 basestat:strength:>=10) or
