@@ -1,68 +1,34 @@
+Please use Keep/Favorite/Infuse/Archive and Junk tags on your weapons and armor.
 
-
-Please use Keep/Favorite/Archive and Junk tags on your weapons and armor.
 
 I've catagorized the contents of this GitHub, refer to the list below:
 
-1. Vault Analyzer and DIM Search Gallery Google Sheets - I'm moving over to a google sheets to support a better visual presentation and more friendly sharable link. Contains the same relevant information as this GitHub.
-                                                         I've experienced issues with subbreddits disliking the GitHub.com link. If you're sharing my Vault Analyzer, please use the Google Sheets link.
 
-2. Vault Filter - Pre-Made Filter that should work for just about anyone.
-                    
-3. Useful Searches - Set of filters you can use for specific functions, instructions may be inside. In my opinion, the averages searches are far superior to the "Stat Check" options.
-                     "Stat Check" checks each stat individually, "Averages" takes an average of the stats and "Summation" takes a sum of the listed stats.
-4. Filter Modules - List of Modules, some are in the Vault Filter
-5. Depreciated/Less Useful Searches - Older/depreciated searches. Searches are put here when I develop a more effective option which will be in category #3 or #4.
-                                      Note: Filters labeled "Stat Check" check each stat individually, the new versions utilize averaging which is more effective.
+1. Vault Analyzer and DIM Search Gallery Google Sheets:
 
-Notes: 
-1. The non-numbered versions of the files are just there to maintain older links, these are identical to the numbered versions.
-2. The Filter Builder is no longer public, I've decided to pull support for this as it can be a lot of effort to upkeep and has a far higher risk of bugs.
-   You can contact me in the DIM Discord about the Filter Builder if you really need it, but for now the Vault Filter has far less flaws than the initial release.
+Instructions for the Vault Analyzer and its conditions are in the google sheets.
+This google sheets allows me to avoid instructions in the search modules to allow easy "select all" controls on mobile when copying searches.
 
-__-----__
-TMMania's Vault Filter: For filtering your armor & weapons. This highlights your trash, anything non-highlighted is an interesting roll for you to decide to keep.
-
-Ignored Weapons & Armor:
-- Tagged: Keep / Favorite / Archive / Infuse: (Sunset items without any of these tags are highlighted)
-- Highest Light Level items (one of each slot when below season cap, keeps all items at seasonal cap)
-- All Exotics
-- Items in a DIM Loadout
-- All Masterworked Items
-- All non-Armor 2.0 armor
-
-This filter will keep armor under the following conditions:
-  All Classes:
-- 18+ Recovery or 65+ stat total
-- High values in 2 stats
-- High values in 3 stats
-- Nearly Equal Stat Distribution
-- Raid Armor: Atleast one armor piece per slot for each non-sunset raid will be kept. 
-              After you own more than one piece, the highest light level piece will skip the stat filters while the others go through.
-- Class items that have a slotted mod, are in a DIM loadout, have an upgrade tier equal to or greater than 6 and atleast one class item per non-sunset raid.
-- Event Armor: This basically only applies to Solstice armor, since it has an attached quest and applied effort beyond stats, I will not filter this armor.
-
-- Titan: 18+ Resilience
-- Hunter: 18+ Mobility
-- Warlock: 18+ Recovery
+If you're sharing my Vault Analyzer, please use the Google Sheets link.
 
 
-Weapons that are sunset without tags or a masterwork or any weapons with the Junk tag and blues will be highlighted to be dismantled while ignoring your highest LL items and pinnacle cap weapons.
-__-----__
+2. Searches - 
+Includes the Vault Analyzer and the New Items Checker.                
 
 
-2 Stat Split : Armor that has high values in two stats.
-
-Triple Stat Split: Armor that has high values in 3 stats.
-                   15 Triple Split: 15 points in 3 stats
-
-Full House: Armor with a nearly equal stat split in all stats.
-
-New Item Checking: For looking at items that you haven't inspected yet. 
-                   This has 2 requirements: New Item Dots option turned on and never click a weapon in DIM until you put in this search to clear out new items
-                   If you do click on an item, mark it junk if you don't want it.
+3. Stat Summation Searches:
+Searches that add up the values of all combinations of stats for double and triple stat groups.
 
 
-[Depreciated] 
+4. Stat Average Searches:
+Searches that average the stats of all combinations of stats for double, triple and 6 stat groups.
 
-Hands On New Weapon Sorting: This filter relies on having tags on all of your weapons, very hands on but nothing will slip through if you accidentally click on anything like with the other "New Weapon Filter"
+
+5. Archived Searches:
+Older/depreciated searches, I wouldn't use these. Searches are put here when I develop a more effective option which will be in the other categories.
+Note: Filters labeled "Stat Check" check each stat individually, the new versions utilize averaging which is far more effective.
+
+
+Note:
+The Filter Builder is no longer public, I've decided to pull support for this as it can be a lot of effort to upkeep and has a far higher risk of bugs.
+You can contact me in the DIM Discord about the Filter Builder if you really need it, but for now the Vault Filter has far less flaws than the initial release.
