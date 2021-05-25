@@ -22,7 +22,7 @@ Searches that add up the values of all combinations of stats for double and trip
 
 4. Stat Average Searches:
 Searches that average the stats of all combinations of stats for double, triple and 6 stat groups.
-
+I personally prefer averages over summations, but they should function similarly.
 
 5. Archived Searches:
 Older/depreciated searches, I wouldn't use these. Searches are put here when I develop a more effective option which will be in the other categories.
