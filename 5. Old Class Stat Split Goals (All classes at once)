@@ -1,5 +1,0 @@
-(
-(is:titan (basestat:recovery:>=18 or basestat:total:>=63)) or
-(is:hunter ((basestat:recovery:>=13 basestat:mobility:>=18) or basestat:recovery:>15 or basestat:total:>=63)) or
-(is:warlock ((basestat:recovery:>=18 discipline:>=17) or basestat:total:>=63))
-)
