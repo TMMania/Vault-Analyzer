@@ -1,4 +1,4 @@
-("Dual Stat Averages with Minimum Value"
+("Dual Stat Averages with Minimum Value" or
 (basestat:mobility&resilience:>=17.5 basestat:mobility:>=15 basestat:resilience:>=15) or
 (basestat:mobility&recovery:>=17.5 basestat:mobility:>=15 basestat:recovery:>=15) or
 (basestat:mobility&discipline:>=17.5 basestat:mobility:>=15 basestat:discipline:>=15) or
