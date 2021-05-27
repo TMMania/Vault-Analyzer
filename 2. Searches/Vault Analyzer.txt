@@ -14,7 +14,7 @@ or
 	-(source:events)
 
 	-(maxbasestatvalue:any)
-	-(basestat:any:>=25)
+	-(basestat:any:>=23)
 	-(basestat:total:>=65)
 
 	-(
