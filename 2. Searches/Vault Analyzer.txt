@@ -42,7 +42,7 @@ or
 	(basestat:intellect&resilience:>=17.5 basestat:intellect:>=15 basestat:resilience:>=15) or
 	(basestat:intellect&recovery:>=17.5 basestat:intellect:>=15 basestat:recovery:>=15) or
 	(basestat:intellect&discipline:>=17.5 basestat:intellect:>=15 basestat:discipline:>=15) or
-	(basestat:intellect&strength:>=17.5 basestat:intellect:>=15 basestat:str':>=15) or
+	(basestat:intellect&strength:>=17.5 basestat:intellect:>=15 basestat:strength:>=15) or
 	(basestat:strength&mobility:>=17.5 basestat:strength:>=15 basestat:mobility:>=15) or
 	(basestat:strength&resilience:>=17.5 basestat:strength:>=15 basestat:resilience:>=15) or
 	(basestat:strength&recovery:>=17.5 basestat:strength:>=15 basestat:recovery:>=15) or
