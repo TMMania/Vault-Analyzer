@@ -1,5 +1,5 @@
-("TMMania's Vault Analyzer |
-Update Version: June 1, 2021"
+("TMMania's Vault Analyzer | Highlights Trash |
+Update Version: June 4, 2021"
 or
 (
 (
