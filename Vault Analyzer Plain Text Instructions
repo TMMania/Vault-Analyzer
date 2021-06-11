@@ -1,0 +1,226 @@
+
+Each time there is a ____________________ at the end of a line, you're at a new section.
+
+Instructions:		
+		
+		
+Important Step 0: ____________________
+		
+Please be sure to come back and grab a copy of the Analyzer from 
+Step 2 about once a month for any updates I make.
+
+
+		
+Step 1: ____________________
+This analyzer only works with Destiny Item Manager.
+Link below for Destiny Item Manager:
+
+https://app.destinyitemmanager.com/
+		
+		
+This can be used on Mobile. Copy the link below to see a guide on using DIM on phones. 
+
+https://destinyitemmanager.fandom.com/wiki/Desktop_and_Mobile_Apps
+		
+		
+Step 2: ____________________
+Copy the link below to access the Vault Analyzer's DIM Search code.
+Select ALL text on the page and copy it.	
+
+https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/2.%20Searches/Vault%20Analyzer.txt
+
+
+Warning about changing values in this code, skip this if you won't do that:
+I won't stop you, but I would avoid adjusting them too high if you plan to use 
+searches to tell you to dismantle the armor you consider "not good" like the Analyzer does.
+Spend some time thinking about it before you commit all the way. 
+You can end up siphoning out armor that is actually good while still getting the same slow trickle of "better armor."
+Even if your standards are higher, your RNG won't change.
+	
+		
+Step 3: ____________________ 
+Paste the Vault Analyzer into the Destiny Item Manager Search Bar		
+		
+Optional: Click the star button on the far right of the search bar 
+to save the Vault Analyzer in your search bar favorites.		
+		
+		
+Step 4: ____________________
+Look at your highlighted items and 
+tag anything you want to keep with any of these tags:
+
+Favorite
+Keep
+Archive
+Infuse
+		
+		
+Step 5: ____________________
+If you have any items that you want to dismantle that are not highlighted, 
+Tag them with the "Junk" Tag.		
+		
+	
+		
+Step 6: ____________________
+Transfer highlighted items to your character's inventory to be dismantled.
+
+Step a: Click on the emblem of the character you want to dismantle items on.
+Step b: Click the ""Transfer Search"" option. Pictured below.
+
+Note: You must have the Vault Analyzer in your DIM search for the ""Transfer Search"" option to appear.		
+		
+		
+Step 7: ____________________
+Dismantle items in-game that are highlighted in Destiny Item Manager.
+
+If you cannot see DIM and the game at the same time, 
+I suggest moving items that are not highlighted out of your character's inventory to avoid mistakes.	
+
+		
+Step 7: ____________________
+Any time you want to clean out your vault, 
+tag your items you want to delete as "Junk" and repeat these steps. 
+If there are any items that are highlighted that you'd like to keep, follow step 3.
+
+
+Important Step 8 ____________________
+		
+Please be sure to come back and grab a copy of the Analyzer from 
+Step 2 or from the link below about once a month for any updates I make.
+
+https://raw.githubusercontent.com/TMMania/TMManias-DIM-Filter-Gallery/main/2.%20Searches/Vault%20Analyzer.txt
+
+
+
+You're done! ____________________
+You're done, the rest of this is extra info about what the Vault Analyzer is.
+
+
+		
+What this "Vault Analyzer" is____________________	
+This Vault Analyzer is a very long search for Destiny Item Manager 
+that highlights what you can dismantle without worrying about it being useful. 
+The main goal is to make the process of checking random stat armor simpler by 
+reducing the need to look at every piece and decide in the moment "is this good?" 
+This is done by performing mathematical analysis and checks on every armor piece
+in your vault to check if they reach any of the set conditions. T
+hese conditions are listed in the "Items to be Kept" section of the google doc on the Vault Analyzer page. 
+The Analyzer also helps prevent mistakes like deleting that pinnacle you just got from 
+running a dungeon and making sure you have raid armor in each slot to 
+utilize Raid Mods without accidentally deleting those pieces.		
+
+
+		
+What this "Vault Analyzer" is not____________________
+My Vault Analyzer is not telling you how to play or limiting your builds for a specific meta, you are in control. 
+First, the Analyzer cannot dismantle anything, you dismantle items in game. 
+The Analyzer will keep any armor that could be useful to any player. 
+I don't have to agree with your play style, but the Analyzer will keep armor that will help you make your builds. 
+Also, the Analyzer is not saying the highlighted items are the only things you can trash since it does not filter things like weapons based on perks. 
+Also, there may be armor rolls you don't want that are considered interesting by the Analyzer. 
+If you want to delete more, tag items with the junk tag and the next time you use the Analyzer, those items will be included.		
+		
+		
+Who should use this Vault Analyzer?____________________
+Anyone. From weekend warriors to daily hardcore grinders, this is designed for everyone.
+
+For you weekend warriors who only play when the kids are asleep, this should help reduce the chaos and pressure that is "I don't understand armor," 
+while making sure you have armor to abuse things like Hunter invisibility for Nightfalls. 
+No more checking armor but still knowing you can make an effective build for PvE or a casually competitive build for PvP. 
+While also knowing you won't accidentally dismantle any useful items for light leveling or utilizing raid mods. 
+Just follow the analyzer's recommendations and go have fun. 
+Tip: Recovery is the most important stat for PvE. Resilience shines brighter in PvP.
+
+For you daily grinders, this can help make sure you're keeping armor for your late game builds for PvE and PvP without having to consider every drop that you earn. 
+The analyzer looks for any combination of stats that can theoretically make 
+builds from a no-mods build with T10 Recovery, T7 Discipline, T7 Intellect on Warlock for PvE to a fully modded 10/10/10/5 Hunter build for PvP.			
+		
+		
+What is GitHub and why are you asking me to click a link leading to GitHub in Step 2?____________________
+Go look up GitHub on Wikipedia, it's a website used for programming.
+GitHub lets me have a single link that never changes while I can update the text on that page as 
+I change the Analyzer and anyone who ever clicks on that link goes to the most up to date version.		
+		
+		
+		
+		
+The Vault Analyzer's Conditions____________________	
+Items to be kept		
+"Conditions for all Armor & Weapons
+
+- Items tagged Keep / Favorite / Archive / Infuse
+- Highest Light Level items *
+- All Exotics
+- Items in a DIM Loadout
+- All Masterworked Items
+
+Additional conditions for Armor only on all classes:
+
+- All non-Armor 2.0 Armor
+- One armor piece for each armor slot for non-sunset raids **
+- Event Armor 3*
+- Class Items that meets any one of these conditions: 4*
+        a. Has a mod installed
+        b. Is locked
+        c. Is upgrade level 6 or greater
+        d. Is not your highest light level raid class item
+
+- Items with the highest value in a stat per armor slot. 5*
+- 65+ stat total
+- 23+ in one stat (High value in one stat)
+- 17.5+ Average in any two stats (High values in two stats)
+- 15+ Average in any three stats (High values in three stats)
+- 8+ Average across all six stats (Values distributed across all stats)
+
+
+Notes:
+
+* One of each slot for each character when below season cap, keeps all items at pinnacle cap
+
+** The analyzer always keeps the highest light level raid item per slot and will remove any duplicates with a lower light level that do not have stats that pass the analyzer.
+
+3* Currently the only 2.0 armor from events is Solstice armor which has quests tied into the armor. I will not identify this armor to be deleted because players may have an attached sentiment to it. If random drop event armor is added to the game, I will change this condition.
+
+4* Essentially these rules say ""You've interacted with the class item."" This is designed to prevent random class items from living in your vault and you should lock a class item if you'd like to keep it.
+
+5* This means that as you play more and earn armor with higher values in a specific stat, the lower value armor will be put through the filter and identified to be dismantled if it does not pass the filter."		
+
+		
+
+Items to be Deleted____________________
+
+The Golden Rule:
+
+- Items with the Junk tag that are not your highest light level items.
+
+
+Conditions for Armor & Weapons *
+
+- Sunset Items
+- Blues that are not your high light level items 2*
+- Any class item that does not fulfill any of these conditions: 3*
+        a. Has a mod installed
+        b. Is locked
+        c. Is upgrade level 6 or greater
+        d. Is not your highest light level raid class item
+
+Conditions for Armor only:
+
+- Anything that does not pass the armor filtering.
+
+Additional Conditions for Weapons only:
+
+- There are no additional conditions. 
+I do not do any kind of filtering on weapons based on perks or Masterwork type or anything like that. 
+This is Analyzer is mostly for armor and there is plenty of resources out there that analyze based on perks. 
+
+Examples: The wishlists in DIM (the little thumbs up below some guns), Light.gg's perk recommendations and community average rolls, YouTuber's reviews on weapons.
+
+Notes:
+
+* Any condition listed in the ""Keep"" section will override any condition in this section except for the golden rule.
+
+2* The analyzer will keep War Mantis Gauntlets on Hunters, these are popular for their Mobility / Recovery / Resilience splits for PvP.
+
+3* To clarify, if one or more conditions is met in this ""abcd"" list, the class item is kept. This is the same set of rules listed in the "Kept Items"
+
