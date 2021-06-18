@@ -1,4 +1,6 @@
-"Good Roll Armor | Try me in the Vendor tab!" or is:armor -is:classitem (
+"Recommended Items Search | Try me in the Vendor tab!" or 
+(is:weapon is:wishlist) or
+is:armor -is:classitem (
 (maxbasestatvalue:any) or
 (basestat:any:>=23) or
 (basestat:total:>=65) or
