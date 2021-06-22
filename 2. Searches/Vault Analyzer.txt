@@ -1,5 +1,5 @@
 ("TMMania's Vault Analyzer | Highlights Trash |
-Update Version: June 6, 2021"
+Update Version: June 22, 2021"
 or
 (
 (
@@ -23,31 +23,16 @@ or
 	(basestat:mobility&discipline:>=17.5 basestat:secondhighest:>10) or
 	(basestat:mobility&intellect:>=17.5 basestat:secondhighest:>10) or
 	(basestat:mobility&strength:>=17.5 basestat:secondhighest:>10) or
-	(basestat:resilience&mobility:>=17.5 basestat:secondhighest:>10) or
 	(basestat:resilience&recovery:>=17.5 basestat:secondhighest:>10) or
 	(basestat:resilience&discipline:>=17.5 basestat:secondhighest:>10) or
 	(basestat:resilience&intellect:>=17.5 basestat:secondhighest:>10) or
 	(basestat:resilience&strength:>=17.5 basestat:secondhighest:>10) or
-	(basestat:recovery&mobility:>=17.5 basestat:secondhighest:>10) or
-	(basestat:recovery&resilience:>=17.5 basestat:secondhighest:>10) or
 	(basestat:recovery&discipline:>=17.5 basestat:secondhighest:>10) or
 	(basestat:recovery&intellect:>=17.5 basestat:secondhighest:>10) or
 	(basestat:recovery&strength:>=17.5 basestat:secondhighest:>10) or
-	(basestat:discipline&mobility:>=17.5 basestat:secondhighest:>10) or
-	(basestat:discipline&resilience:>=17.5 basestat:secondhighest:>10) or
-	(basestat:discipline&recovery:>=17.5 basestat:secondhighest:>10) or
 	(basestat:discipline&intellect:>=17.5 basestat:secondhighest:>10) or
 	(basestat:discipline&strength:>=17.5 basestat:secondhighest:>10) or
-	(basestat:intellect&mobility:>=17.5 basestat:secondhighest:>10) or
-	(basestat:intellect&resilience:>=17.5 basestat:secondhighest:>10) or
-	(basestat:intellect&recovery:>=17.5 basestat:secondhighest:>10) or
-	(basestat:intellect&discipline:>=17.5 basestat:secondhighest:>10) or
-	(basestat:intellect&strength:>=17.5 basestat:secondhighest:>10) or
-	(basestat:strength&mobility:>=17.5 basestat:secondhighest:>10) or
-	(basestat:strength&resilience:>=17.5 basestat:secondhighest:>10) or
-	(basestat:strength&recovery:>=17.5 basestat:secondhighest:>10) or
-	(basestat:strength&discipline:>=17.5 basestat:secondhighest:>10) or
-	(basestat:strength&intellect:>=17.5 basestat:secondhighest:>10)
+	(basestat:intellect&strength:>=17.5 basestat:secondhighest:>10)
 	)
 
 	-(
