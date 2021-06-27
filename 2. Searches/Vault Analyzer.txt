@@ -1,5 +1,5 @@
 ("TMMania's Vault Analyzer | Highlights Trash |
-Update Version: June 22, 2021"
+Update Version: June 26, 2021"
 or
 (
 (
