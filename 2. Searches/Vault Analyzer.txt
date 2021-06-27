@@ -60,7 +60,7 @@ or
 
 	-(basestat:fourthhighest:>=10)
 	
-	-(basestat:sixthhighest:>=8)
+	-(basestat:mobility&resilience&recovery&discipline&intellect&strength:>9 basestat:sixthhighest:>2 basestat:highest:<15)
   )
 
 or
