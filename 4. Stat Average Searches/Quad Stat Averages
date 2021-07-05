@@ -1,0 +1,16 @@
+("Quad Stat Averages" or
+(((basestat:mobility&resilience&recovery&intellect:>=13.25) or
+(basestat:mobility&resilience&recovery&discipline:>=13.25) or
+(basestat:mobility&resilience&recovery&strength:>=13.25) or
+(basestat:mobility&resilience&intellect&discipline:>=13.25) or
+(basestat:mobility&resilience&intellect&strength:>=13.25) or
+(basestat:mobility&resilience&discipline&strength:>=13.25) or
+basestat:mobility&recovery&intellect&discipline:>=13.25) or
+(basestat:mobility&recovery&intellect&strength:>=13.25) or
+(basestat:mobility&recovery&discipline&strength:>=13.25) or
+(basestat:mobility&intellect&discipline&strength:>=13.25) or
+(basestat:resilience&recovery&intellect&discipline:>=13.25) or
+(basestat:resilience&recovery&intellect&strength:>=13.25) or
+(basestat:resilience&recovery&discipline&strength:>=13.25) or
+(basestat:resilience&intellect&discipline&strength:>=13.25) or
+(basestat:recovery&intellect&discipline&strength:>=13.25)) -basestat:fourthhighest:<10))
