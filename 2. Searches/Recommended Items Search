@@ -2,12 +2,12 @@
 (is:weapon is:wishlist) or (
 is:armor -is:classitem (
 
-  (maxbasestatvalue:any) or
-  (basestat:any:>=23) or
-  (basestat:total:>=65) or
+  	(maxbasestatvalue:any) or
+  	(basestat:any:>=23) or
+  	(basestat:total:>=65) or
 
-  (((basestat:mobility&resilience:>=17.5) or
-  (basestat:mobility&recovery:>=17.5) or
+	(((basestat:mobility&resilience:>=17.5) or
+  	(basestat:mobility&recovery:>=17.5) or
 	(basestat:mobility&discipline:>=17.5) or
 	(basestat:mobility&intellect:>=17.5) or
 	(basestat:mobility&strength:>=17.5) or
