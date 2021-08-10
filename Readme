@@ -13,23 +13,30 @@ This google sheets allows me to avoid instructions in the search modules to allo
 If you're sharing my Vault Analyzer, please use the Google Sheets link.
 
 
+
 2. Searches - 
 Includes the Vault Analyzer and the New Items Checker.                
 
 
+
 3. Stat Summation Searches:
 Searches that add up the values of all combinations of stats for double and triple stat groups.
+I personally prefer averages over summations, but they should function similarly.
+
 
 
 4. Stat Average Searches:
-Searches that average the stats of all combinations of stats for double, triple and 6 stat groups.
-I personally prefer averages over summations, but they should function similarly.
+Searches that average the stats of all combinations of stats for double, triple, quadruple and 6 stat groups.
+
+
 
 5. Archived Searches:
 Older/depreciated searches, I wouldn't use these. Searches are put here when I develop a more effective option which will be in the other categories.
 Note: Filters labeled "Stat Check" check each stat individually, the new versions utilize averaging which is far more effective.
 
 
-Note:
+
+
+
+Fiolter Builder Note:
 The Filter Builder is no longer public, I've decided to pull support for this as it can be a lot of effort to upkeep and has a far higher risk of bugs.
-You can contact me in the DIM Discord about the Filter Builder if you really need it, but for now the Vault Filter has far less flaws than the initial release.
