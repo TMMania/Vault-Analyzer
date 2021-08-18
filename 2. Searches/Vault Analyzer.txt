@@ -69,7 +69,7 @@ or
 	(basestat:resilience&intellect&discipline&strength:>=13.25) or
 	(basestat:recovery&intellect&discipline&strength:>=13.25)) -basestat:fourthhighest:<10)
 
-	-(basestat:mobility&resilience&recovery&discipline&intellect&strength:>=9 basestat:sixthhighest:>5 basestat:highest:<15)
+	-(basestat:mobility&resilience&recovery&discipline&intellect&strength:>=9 basestat:sixthhighest:>5 basestat:highest:<16)
   )
 
 or
