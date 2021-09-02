@@ -5,7 +5,7 @@
 (basestat:mobility&resilience&intellect&discipline:>=13.25) or
 (basestat:mobility&resilience&intellect&strength:>=13.25) or
 (basestat:mobility&resilience&discipline&strength:>=13.25) or
-basestat:mobility&recovery&intellect&discipline:>=13.25) or
+(basestat:mobility&recovery&intellect&discipline:>=13.25) or
 (basestat:mobility&recovery&intellect&strength:>=13.25) or
 (basestat:mobility&recovery&discipline&strength:>=13.25) or
 (basestat:mobility&intellect&discipline&strength:>=13.25) or
