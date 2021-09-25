@@ -60,4 +60,4 @@ is:armor -is:classitem (
 	(basestat:recovery&intellect&discipline&strength:>=13.25)) -basestat:fourthhighest:<10) or
 
 	(basestat:mobility&resilience&recovery&discipline&intellect&strength:>=9 basestat:sixthhighest:>5 basestat:highest:<15)
-)
+))
