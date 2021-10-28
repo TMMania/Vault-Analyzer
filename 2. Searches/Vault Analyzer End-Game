@@ -1,5 +1,5 @@
 ("TMMania's Vault Analyzer End-Game Edition | Highlights Trash | Keeps Top 2.5% Armor |
-Update Version: July 5th, 2021"
+Update Version: #0025"
 or
 (
 (
@@ -69,7 +69,7 @@ or
 	(basestat:resilience&intellect&discipline&strength:>=14.25) or
 	(basestat:recovery&intellect&discipline&strength:>=14.25)))
 
-	-(basestat:mobility&resilience&recovery&discipline&intellect&strength:>=9 basestat:sixthhighest:>5 basestat:highest:<16)
+	-(basestat:mobility&resilience&recovery&discipline&intellect&strength:>=10 basestat:sixthhighest:>=7 basestat:highest:<16)
   )
 
 or
@@ -82,7 +82,5 @@ or
 	((is:armor or is:weapon) and (is:common or is:uncommon))
 )
 -(is:tagged -tag:junk) -is:maxpowerloadout -power:pinnaclecap -is:inloadout -is:masterwork -(is:armor -is:armor2.0) -(is:armor source:events)
-)  or (tag:junk -is:maxpowerloadout)
-or
-    (is:statlower)
+)  or ((is:statlower or tag:junk) -is:maxpowerloadout)
 )
