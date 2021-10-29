@@ -80,7 +80,9 @@ or
 	(is:armor is:blue -(name:"war mantis" is:gauntlets))	
 or
 	((is:armor or is:weapon) and (is:common or is:uncommon))
+or
+	(is:statlower)
 )
 -(is:tagged -tag:junk) -is:maxpower -power:pinnaclecap -is:inloadout -is:masterwork -(is:armor -is:armor2.0) -(is:armor source:events)
-)  or ((is:statlower or tag:junk) -is:maxpower)
+)  or (tag:junk -is:maxpower)
 )
