@@ -35,5 +35,5 @@ or
 	((is:armor or is:weapon) and (is:common or is:uncommon))
 )
 -(is:tagged -tag:junk) -is:maxpower -power:pinnaclecap -is:inloadout -is:masterwork -(is:armor -is:armor2.0) -(is:armor source:events)
-)  or (tag:junk -(is:maxpower -is:pinnaclecap))
+)  or (tag:junk -is:maxpowerloadout)
 )
