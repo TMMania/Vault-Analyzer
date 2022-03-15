@@ -1,5 +1,5 @@
 "Recommended Items Search | Try me in the Vendor tab!" or 
-(is:weapon -is:sunset (-count:>0 or is:wishlist)) or (
+(is:weapon -is:sunset is:wishlist) or (
 is:armor -is:classitem (
 	
 	((basestat:recovery&secondhighest:>=19 or 
