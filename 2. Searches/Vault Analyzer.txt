@@ -1,5 +1,5 @@
 ("TMMania's Vault Analyzer | Highlights Trash |
-Update Version: #0029"
+Update Version: #0032"
 or
 (
 (
