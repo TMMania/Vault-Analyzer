@@ -1,5 +1,5 @@
 ("TMMania's Vault Analyzer | Highlights Trash |
-Update Version: #0030"
+Update Version: #0029"
 or
 (
 (
@@ -22,7 +22,7 @@ or
 
 	-(basestat:highest&secondhighest&thirdhighest&fourthhighest:>=13.25 -basestat:fourthhighest:<10)
 	
-	-(basestat:highest&secondhighest&thirdhighest&fourthhighest&fifthhighest:>=11.8 -basestat:fifthhighest:>=6)
+	-(basestat:highest&secondhighest&thirdhighest&fourthhighest&fifthhighest:>=11.8 -basestat:fifthhighest:<6)
 
 	-(basestat:mobility&resilience&recovery&discipline&intellect&strength:>=9 basestat:sixthhighest:>=7 basestat:highest:<16)
   )
