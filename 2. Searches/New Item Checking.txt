@@ -1,1 +1,1 @@
-("New Item Checking" or (-(-is:armor -is:weapon) -is:classitem -is:maxpower is:new))
+/* New Item Checking */ (-(-is:armor -is:weapon) -is:classitem -is:maxpower is:new)

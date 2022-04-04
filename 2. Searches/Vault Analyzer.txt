@@ -1,6 +1,5 @@
-("TMMania's Vault Analyzer | Highlights Trash |
-Update Version: #0032"
-or
+/* TMMania's Vault Analyzer | Highlights Trash |
+Update Version: #0032 */
 (
 (
 	(
@@ -21,7 +20,7 @@ or
 	-(basestat:highest&secondhighest&thirdhighest:>=15 -basestat:thirdhighest:<11)
 
 	-(basestat:highest&secondhighest&thirdhighest&fourthhighest:>=13.25 -basestat:fourthhighest:<10)
-	
+
 	-(basestat:highest&secondhighest&thirdhighest&fourthhighest&fifthhighest:>=11.8 -basestat:fifthhighest:<6)
 
 	-(basestat:mobility&resilience&recovery&discipline&intellect&strength:>=9 basestat:sixthhighest:>=7 basestat:highest:<16)
@@ -32,10 +31,9 @@ or
 or
 	(is:armor is:sunset)
 or
-	(is:armor is:blue -(name:"war mantis" is:gauntlets))	
+	(is:armor is:blue -(name:"war mantis" is:gauntlets))
 or
 	((is:armor or is:weapon) and (is:common or is:uncommon))
 )
 -(is:tagged -tag:junk) -is:maxpower -power:pinnaclecap -is:inloadout -is:masterwork -(is:armor -is:armor2.0) -(is:armor source:events)
 )  or (tag:junk -is:maxpowerloadout)
-)

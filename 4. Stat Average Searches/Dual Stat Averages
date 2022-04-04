@@ -1,2 +1,2 @@
-("Dual Stat Averages" or
-(basestat:highest&secondhighest:>=17.5 -basestat:secondhighest:<15))
+/* Dual Stat Averages */
+(basestat:highest&secondhighest:>=17.5 -basestat:secondhighest:<15)

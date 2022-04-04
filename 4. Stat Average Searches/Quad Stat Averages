@@ -1,2 +1,2 @@
-("Quad Stat Averages" or
-(basestat:highest&secondhighest&thirdhighest&fourthhighest:>=13.25 -basestat:fourthhighest:<10))
+/* Quad Stat Averages */
+(basestat:highest&secondhighest&thirdhighest&fourthhighest:>=13.25 -basestat:fourthhighest:<10)

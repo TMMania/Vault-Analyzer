@@ -1,6 +1,5 @@
-("TMMania's Vault Analyzer Mid-Game Edition | Highlights Trash | Keeps Top 7.5% Armor |
-Update Version: #0029"
-or
+/* TMMania's Vault Analyzer Mid-Game Edition | Highlights Trash | Keeps Top 7.5% Armor |
+Update Version: #0029 */
 (
 (
 	(
@@ -30,10 +29,9 @@ or
 or
 	(is:armor is:sunset)
 or
-	(is:armor is:blue -(name:"war mantis" is:gauntlets))	
+	(is:armor is:blue -(name:"war mantis" is:gauntlets))
 or
 	((is:armor or is:weapon) and (is:common or is:uncommon))
 )
 -(is:tagged -tag:junk) -is:maxpower -power:pinnaclecap -is:inloadout -is:masterwork -(is:armor -is:armor2.0) -(is:armor source:events)
 )  or (tag:junk -is:maxpowerloadout)
-)

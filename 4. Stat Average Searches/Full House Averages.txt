@@ -1,2 +1,2 @@
-("Full House Stat Split" or 
-(basestat:mobility&resilience&recovery&discipline&intellect&strength:>=9 basestat:sixthhighest:>5 basestat:highest:<15))
+/* Full House Stat Split */
+(basestat:mobility&resilience&recovery&discipline&intellect&strength:>=9 basestat:sixthhighest:>5 basestat:highest:<15)
