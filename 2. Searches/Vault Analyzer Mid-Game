@@ -1,5 +1,5 @@
-/* TMMania's Vault Analyzer Mid-Game Edition | Highlights Trash | Keeps Top 7.5% Armor |
-Update Version: #0029 */
+/* TMMania's Vault Analyzer Mid-Game Edition | Highlights Trash | Keeps Top 7.5% Armor
+Update Version: #0035 */
 (
 (
 	(
@@ -8,20 +8,18 @@ Update Version: #0029 */
 or
   (
 	(is:armor -is:exotic -is:classitem)
-
+	
 	-(source:raid -is:dupelower -source:dcv)
-
+	
 	-(maxbasestatvalue:any)
-	-(basestat:any:>=23)
-	-(basestat:total:>=65)
-
-	-(basestat:highest&secondhighest:>=18.5)
-
-	-(basestat:highest&secondhighest&thirdhighest:>=15.66)
-
-	-(basestat:highest&secondhighest&thirdhighest&fourthhighest:>=13.75)
-
-	-(basestat:mobility&resilience&recovery&discipline&intellect&strength:>=9.5 basestat:sixthhighest:>=7 basestat:highest:<16)
+	-(basestat:total:>=65)	
+	
+	-(basestat:highest:>=24 basestat:secondhighest>=10 (basestat:recovery:>=10 or (is:hunter basestat:mobility:>=10)))
+	-(basestat:highest&secondhighest:>=19 basestat:secondhighest>=14 (basestat:recovery:>=14 or (is:hunter basestat:mobility:>=14)))
+	-(basestat:highest&secondhighest&thirdhighest:>=15.666 basestat:secondhighest>=12 (basestat:recovery:>=12 or (is:hunter basestat:mobility:>=12)))
+	-(basestat:highest&secondhighest&thirdhighest&fourthhighest:>=13.75 basestat:fourthhighest>=10 (basestat:recovery:>=10 or (is:hunter basestat:mobility:>=10)))
+	-(basestat:highest&secondhighest&thirdhighest&fourthhighest&fifthhighest:>=12 basestat:fifthhighest>=6 (basestat:recovery:>=6 or (is:hunter basestat:mobility:>=6)))
+	-(basestat:highest&secondhighest&thirdhighest&fourthhighest&fifthhighest&sixthhighest:>=10.333 basestat:sixthhighest>=6 (basestat:recovery:>=6 or (is:hunter basestat:mobility:>=6)))
   )
 
 or
@@ -33,5 +31,5 @@ or
 or
 	((is:armor or is:weapon) and (is:common or is:uncommon))
 )
--(is:tagged -tag:junk) -is:maxpower -power:pinnaclecap -is:inloadout -is:masterwork -(is:armor -is:armor2.0) -(is:armor source:events)
+-(is:tagged -tag:junk) -is:maxpower -is:inloadout -is:masterwork -(is:armor -is:armor2.0) -(is:armor source:events)
 )  or (tag:junk -is:maxpowerloadout)
