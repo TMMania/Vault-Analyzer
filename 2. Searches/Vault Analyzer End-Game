@@ -12,16 +12,14 @@ or
 	-(source:raid -is:dupelower -source:dcv)
 
 	-(maxbasestatvalue:any)
-	-(basestat:any:>=23)
 	-(basestat:total:>=65)
-
-	-(basestat:highest&secondhighest:>=19)
-
-	-(basestat:highest&secondhighest&thirdhighest:>=16.66)
-
-	-(basestat:highest&secondhighest&thirdhighest&fourthhighest:>=14.25)
-
-	-(basestat:mobility&resilience&recovery&discipline&intellect&strength:>=10 basestat:sixthhighest:>=7 basestat:highest:<16)
+	
+	-(basestat:highest:>=26 basestat:secondhighest>=10 (basestat:recovery:>=10 or (is:hunter basestat:mobility:>=10)))
+	-(basestat:highest&secondhighest:>=20.5 basestat:secondhighest>=15 (basestat:recovery:>=15 or (is:hunter basestat:mobility:>=15)))
+	-(basestat:highest&secondhighest&thirdhighest:>=16.666 basestat:secondhighest>=12 (basestat:recovery:>=12 or (is:hunter basestat:mobility:>=12)))
+	-(basestat:highest&secondhighest&thirdhighest&fourthhighest:>=14.25 basestat:fourthhighest>=10 (basestat:recovery:>=10 or (is:hunter basestat:mobility:>=10)))
+	-(basestat:highest&secondhighest&thirdhighest&fourthhighest&fifthhighest:>=12.2 basestat:fifthhighest>=6 (basestat:recovery:>=6 or (is:hunter basestat:mobility:>=6)))
+	-(basestat:highest&secondhighest&thirdhighest&fourthhighest&fifthhighest&sixthhighest:>=10.333 basestat:sixthhighest>=6 (basestat:recovery:>=6 or (is:hunter basestat:mobility:>=6)))
   )
 
 or
