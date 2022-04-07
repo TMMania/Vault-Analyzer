@@ -1,5 +1,5 @@
 /* TMMania's Vault Analyzer | Highlights Trash |
-Update Version: #0032 */
+Update Version: #0033 */
 (
 (
 	(
@@ -8,22 +8,18 @@ Update Version: #0032 */
 or
   (
 	(is:armor -is:exotic -is:classitem)
-
+	
 	-(source:raid -is:dupelower -source:dcv)
-
+	
 	-(maxbasestatvalue:any)
-	-(basestat:any:>=23)
-	-(basestat:total:>=65)
-
-	-(basestat:highest&secondhighest:>=17.5 -basestat:secondhighest:<15)
-
-	-(basestat:highest&secondhighest&thirdhighest:>=15 -basestat:thirdhighest:<11)
-
-	-(basestat:highest&secondhighest&thirdhighest&fourthhighest:>=13.25 -basestat:fourthhighest:<10)
-
-	-(basestat:highest&secondhighest&thirdhighest&fourthhighest&fifthhighest:>=11.8 -basestat:fifthhighest:<6)
-
-	-(basestat:mobility&resilience&recovery&discipline&intellect&strength:>=9 basestat:sixthhighest:>=7 basestat:highest:<16)
+	-(basestat:total:>=65)	
+	
+	-(basestat:highest:>=21 basestat:secondhighest>=10 basestat:recovery:>=10)
+	-(basestat:highest&secondhighest:>=18 basestat:secondhighest>=13 basestat:recovery:>=13)
+	-(basestat:highest&secondhighest&thirdhighest:>=15 basestat:secondhighest>=11 basestat:recovery:>=11)
+	-(basestat:highest&secondhighest&thirdhighest&fourthhighest:>=13.25 basestat:fourthhighest>=10 basestat:recovery:>=10)
+	-(basestat:highest&secondhighest&thirdhighest&fourthhighest&fifthhighest:>=11.4 basestat:fifthhighest>=6 basestat:recovery:>=6)
+	-(basestat:highest&secondhighest&thirdhighest&fourthhighest&fifthhighest&sixthhighest:>=9.666 basestat:sixthhighest>=6 basestat:recovery:>=6)
   )
 
 or
@@ -35,5 +31,5 @@ or
 or
 	((is:armor or is:weapon) and (is:common or is:uncommon))
 )
--(is:tagged -tag:junk) -is:maxpower -power:pinnaclecap -is:inloadout -is:masterwork -(is:armor -is:armor2.0) -(is:armor source:events)
+-(is:tagged -tag:junk) -is:maxpower -is:inloadout -is:masterwork -(is:armor -is:armor2.0) -(is:armor source:events)
 )  or (tag:junk -is:maxpowerloadout)
