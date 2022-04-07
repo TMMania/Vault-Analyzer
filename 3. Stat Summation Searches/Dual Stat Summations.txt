@@ -1,2 +1,2 @@
-("Dual Stat Summations" or 
-(basestat:highest+secondhighest:>=40))
+/* Dual Stat Summations */
+(basestat:highest+secondhighest:>=40)

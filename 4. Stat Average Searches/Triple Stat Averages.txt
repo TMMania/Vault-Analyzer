@@ -1,2 +1,2 @@
-("Triple Stat Averages" or
-(basestat:highest&secondhighest&thirdhighest:>=15 -basestat:thirdhighest:<11))
+/* Triple Stat Averages */
+(basestat:highest&secondhighest&thirdhighest:>=15 -basestat:thirdhighest:<11)

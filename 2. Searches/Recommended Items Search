@@ -1,16 +1,16 @@
-"Recommended Items Search | Try me in the Vendor tab!" or 
+/* Recommended Items Search | Try me in the Vendor tab! */
 (is:weapon -is:sunset is:wishlist) or (
 is:armor -is:classitem (
-	
-	((basestat:recovery&secondhighest:>=19 or 
+
+	((basestat:recovery&secondhighest:>=19 or
 	basestat:highest&recovery:>=19)
 	basestat:secondhighest:>10 basestat:fourthhighest:<10)
 	or
 
 	((basestat:recovery&secondhighest&thirdhighest:>=16.66 or
 	basestat:highest&recovery&thirdhighest:>=16.66 or
-	basestat:highest&secondhighest&recovery:>=16.66) 
-	basestat:thirdhighest:>10 basestat:thirdhighest:<20) 
+	basestat:highest&secondhighest&recovery:>=16.66)
+	basestat:thirdhighest:>10 basestat:thirdhighest:<20)
 	or
 
 	((basestat:recovery&secondhighest&thirdhighest&fourthhighest:>=14.25 or

@@ -1,2 +1,2 @@
-("Triple Stat Summations" or
-(basestat:highest+secondhighest+thirdhighest:>=45))
+/* Triple Stat Summations */
+(basestat:highest+secondhighest+thirdhighest:>=45)
