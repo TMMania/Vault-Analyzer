@@ -10,7 +10,7 @@ Update Version: #0001*/
 	-(maxbasestatvalue:any)
 	-(basestat:total:>=65)
       	
-  -(basestat:highest:>=24 basestat:secondhighest:>=10 (basestat:recovery:>=24 basestat:mobility:<24 or (is:hunter (basestat:mobility:>=24 or basestat:recovery:>=24))))
+	-(basestat:highest:>=24 basestat:secondhighest:>=10 (basestat:recovery:>=24 basestat:mobility:<24 or (is:hunter (basestat:mobility:>=24 or basestat:recovery:>=24))))
 	-(basestat:highest&secondhighest:>=19 basestat:secondhighest:>=14 (basestat:recovery:>=14 basestat:mobility:<14 or (is:hunter (basestat:mobility:>=14 or basestat:recovery:>=14))))
 	-(basestat:highest&secondhighest&thirdhighest:>=15.666 basestat:secondhighest:>=12 (basestat:recovery:>=12 basestat:mobility:<12 or (is:hunter (basestat:mobility:>=12 or basestat:recovery:>=12))))
 	-(basestat:highest&secondhighest&thirdhighest&fourthhighest:>=13.75 basestat:fourthhighest:>=10 (basestat:recovery:>=10 basestat:mobility:<10 or (is:hunter (basestat:mobility:>=10 or basestat:recovery:>=12))))
@@ -19,4 +19,4 @@ Update Version: #0001*/
     )
     or
       (is:classitem energycapacity:<=5 -is:modded -is:locked -(source:raid -is:dupelower -source:dcv) is:maxpower)
-  )) -(tag:favorite or tag:keep) -is:inloadout -is:masterwork -source:events)
+  ) -(tag:favorite or tag:keep) -is:inloadout -is:masterwork -source:events)
