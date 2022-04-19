@@ -16,7 +16,7 @@ or
 	
 	-(basestat:highest:>=23 basestat:secondhighest:>=10 (basestat:recovery:>=23 or (is:hunter (basestat:mobility:>=23 or basestat:recovery:>=23))))
 	-(basestat:highest&secondhighest:>=18 basestat:secondhighest:>=13 (basestat:recovery:>=13 basestat:mobility:<13 or (is:hunter (basestat:mobility:>=13 or basestat:recovery:>=13))))
-	-(basestat:highest&secondhighest&thirdhighest:>=15 basestat:secondhighest:>=11 (basestat:recovery:>=11 basestat:mobility:<11 or (is:hunter (basestat:mobility:>=11 or basestat:recovery:>=11))))
+	-(basestat:highest&secondhighest&thirdhighest:>=15 basestat:thirdhighest:>=11 (basestat:recovery:>=11 basestat:mobility:<11 or (is:hunter (basestat:mobility:>=11 or basestat:recovery:>=11))))
 	-(basestat:highest&secondhighest&thirdhighest&fourthhighest:>=13.25 basestat:fourthhighest:>=10 (basestat:recovery:>=10 basestat:mobility:<10 or (is:hunter (basestat:mobility:>=10 or basestat:recovery:>=10))))
 	-(basestat:highest&secondhighest&thirdhighest&fourthhighest&fifthhighest:>=11.6 basestat:fifthhighest:>=6 (basestat:recovery:>=6 basestat:mobility:<6 or (is:hunter (basestat:mobility:>=6 or basestat:recovery:>=6))))
 	-(basestat:highest&secondhighest&thirdhighest&fourthhighest&fifthhighest&sixthhighest:>=9.833 basestat:sixthhighest:>=6)
