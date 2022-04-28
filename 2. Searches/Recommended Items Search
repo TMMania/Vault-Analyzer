@@ -1,4 +1,5 @@
-/* Recommended Items Search | Try me in the Vendor tab! */
+/* Recommended Items Search | Try me in the Vendor tab! 
+Version Number: #0011 */
 (is:weapon -is:sunset is:wishlist) or (
 is:armor -is:classitem (
 
