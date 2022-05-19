@@ -14,11 +14,11 @@ or
 	-(maxbasestatvalue:any)
 	-(basestat:total:>=65)
 	
-	-(basestat:highest:>=26 basestat:secondhighest:>=10 (basestat:recovery:>=26 basestat:mobility:<26 or (is:hunter (basestat:mobility:>=26 or basestat:recovery:>=26))))
-	-(basestat:highest&secondhighest:>=20.5 basestat:secondhighest:>=15 (basestat:recovery:>=15 basestat:mobility:<15 or (is:hunter (basestat:mobility:>=15 or basestat:recovery:>=15))))
-	-(basestat:highest&secondhighest&thirdhighest:>=16.666 basestat:secondhighest:>=12 (basestat:recovery:>=12 basestat:mobility:<12 or (is:hunter (basestat:mobility:>=12 or basestat:recovery:>=12))))
-	-(basestat:highest&secondhighest&thirdhighest&fourthhighest:>=14.25 basestat:fourthhighest:>=10 (basestat:recovery:>=10 basestat:mobility:<10 or (is:hunter (basestat:mobility:>=10 or basestat:recovery:>=10))))
-	-(basestat:highest&secondhighest&thirdhighest&fourthhighest&fifthhighest:>=12.2 basestat:fifthhighest:>=6 (basestat:recovery:>=6 basestat:mobility:<6 or (is:hunter (basestat:mobility:>=6 or basestat:recovery:>=6))))
+	-(basestat:highest:>=26 ((basestat:recovery:>=26 basestat:mobility:<26) or (is:hunter and (basestat:mobility:>=26 or basestat:recovery:>=26))))
+	-(basestat:highest&secondhighest:>=20.5 basestat:secondhighest:>=15 ((basestat:recovery:>=15 basestat:mobility:<15) or (is:hunter (basestat:mobility:>=15 or basestat:recovery:>=15))))
+	-(basestat:highest&secondhighest&thirdhighest:>=16.666 basestat:secondhighest:>=12 ((basestat:recovery:>=12 basestat:mobility:<12) or (is:hunter (basestat:mobility:>=12 or basestat:recovery:>=12))))
+	-(basestat:highest&secondhighest&thirdhighest&fourthhighest:>=14.25 basestat:fourthhighest:>=10 ((basestat:recovery:>=10 basestat:mobility:<10) or (is:hunter (basestat:mobility:>=10 or basestat:recovery:>=10))))
+	-(basestat:highest&secondhighest&thirdhighest&fourthhighest&fifthhighest:>=12.2 basestat:fifthhighest:>=6 ((basestat:recovery:>=6 basestat:mobility:<6) or (is:hunter (basestat:mobility:>=6 or basestat:recovery:>=6))))
 	-(basestat:highest&secondhighest&thirdhighest&fourthhighest&fifthhighest&sixthhighest:>=10.333 basestat:sixthhighest:>=6)
   )
 or
