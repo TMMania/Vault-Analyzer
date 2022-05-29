@@ -10,7 +10,7 @@ Speed may vary depending on your device, I have no idea how this will perform on
 
 (tag:junk -is:maxpowerloadout) or
 (
--(is:tagged -tag:junk) -is:maxpower -power:pinnaclecap -is:inloadout -is:masterwork -(is:armor -is:armor2.0) -(is:armor source:events)
+-(is:tagged -tag:junk) -is:maxpower -power:pinnaclecap -is:inloadout -is:masterwork -(is:armor -is:armor2.0) -(is:armor source:events) -name:"Classified"
 (
 (is:weapon (is:sunset or is:blue))
 or
