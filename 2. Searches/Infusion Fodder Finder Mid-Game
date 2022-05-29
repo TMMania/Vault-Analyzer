@@ -1,5 +1,5 @@
 /*Infusion Fodder Finder Mid-Game | Highlights Trash to be Infused |
-Update Version: #0002*/
+Update Version: #0003*/
 (
   (
     (
@@ -19,4 +19,4 @@ Update Version: #0002*/
     )
     or
       (is:classitem energycapacity:<=5 -is:modded -is:locked -(source:raid -is:dupelower -source:dcv) is:maxpower)
-  ) -(tag:favorite or tag:keep) -is:inloadout -is:masterwork -source:events)
+  ) -(tag:favorite or tag:keep) -is:inloadout -is:masterwork -source:events -name:classified)
